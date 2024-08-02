@@ -4,17 +4,19 @@ import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 
+import charactersRouter from './routes/charactersRouter.js';
+
 dotenv.config();
 
 const app = express();
 
-mongoose.connect(process.env.API_KEY).then(() => {console.log("Database connection successful")}).catch((err) => {console.log(err); process.exit(1)});
+mongoose.connect("mongodb+srv://code:F4VxR2vmCVdHGKOT@project0.ujvr9qe.mongodb.net/hsr").then(() => {console.log("Database connection successful")}).catch((err) => {console.log(err); process.exit(1)});
 
 app.use(morgan('tiny'));
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/characters", characterRouter);
+app.use("/api/characters", charactersRouter);
 
 app.use((_, res) => {
     res.status(404).json({ message: "Route not found" });
