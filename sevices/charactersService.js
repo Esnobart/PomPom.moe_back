@@ -1,12 +1,24 @@
 import { HSRchar, HSRcones, HSRplanars, HSRrelics } from "../models/charactersModel.js";
 
+async function getCharacters() {
+    try {
+        const list = await HSRchar.find().catch(err => {
+            console.error(err)
+            return null
+        });
+        return list
+    } catch (err) {
+        console.error(err.message);
+        return null
+    }
+}
+
 async function getCharacterService(id) {
     try {
-        const char = await HSRchar.findOne({ id: id });
-        if (!char) {
-            console.log("char is not in list")
+        const char = await HSRchar.findOne({ id: id }).catch(err => {
+            console.error(err)
             return null
-        }
+        });
         const cones = await HSRcones.find({ id: { $in: char.cones } });
         const relics = await HSRrelics.find({ id: { $in: char.relics } });
         const planars = await HSRplanars.find({ id: { $in: char.planars } });
@@ -37,9 +49,41 @@ async function getCharacterService(id) {
         }
         return response
     } catch (err) {
-        console.log(err.message);
+        console.error(err.message);
         return null
     }
 }
 
-export default getCharacterService
+async function getRelics() {
+    try {
+        const list = await HSRrelics.find().catch(err => {
+            console.error(err)
+            return null
+        });
+        return list
+    } catch (err) {
+        console.error(err.message);
+        return null
+    }
+}
+
+async function getRelic(id) {
+    const relic = await HSRrelics.findOne({ id: id }).catch(err => {
+        console.error(err);
+        return null
+    });
+    const chars = await HSRchar.find({ relics: relic.id })
+    const response = {
+        id: relic.id,
+        name: relic.name,
+        img: relic.img,
+        chars: chars.map(char => ({
+            charId: char.id,
+            charName: char.name,
+            charImg: char.img
+        }))
+    }
+    return response
+}
+
+export { getCharacters, getCharacterService, getRelics, getRelic }
