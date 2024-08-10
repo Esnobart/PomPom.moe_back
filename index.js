@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 
-mongoose.connect("mongodb+srv://code:F4VxR2vmCVdHGKOT@project0.ujvr9qe.mongodb.net/hsr").then(() => {console.log("Database connection successful")}).catch((err) => {console.log(err); process.exit(1)});
+mongoose.connect(process.env.API_KEY).then(() => {console.log("Database connection successful")}).catch((err) => {console.log(err); process.exit(1)});
 
 app.use(morgan('tiny'));
 app.use(cors());
