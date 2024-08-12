@@ -1,6 +1,9 @@
 import { Router } from "express";
 
-import { getAllChars, getAllCones, getAllPlanars, getAllRelics, getCharacterById, getConeById, getPlanarsById, getRelicsById } from "../controllers/charactersController.js";
+import { getAllChars, getCharacterById } from "../controllers/charactersController.js";
+import { getAllCones, getConeById } from "../controllers/conesController.js";
+import { getAllRelics, getRelicsById } from "../controllers/relicsController.js";
+import { getAllPlanars, getPlanarsById } from "../controllers/planarsControllers.js";
 
 const charactersRouter = Router();
 

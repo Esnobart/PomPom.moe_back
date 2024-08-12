@@ -4,7 +4,7 @@ import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 
-import charactersRouter from './routes/charactersRouter.js';
+import charactersRouter from './routes/Router.js';
 
 dotenv.config();
 
