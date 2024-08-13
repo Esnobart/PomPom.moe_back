@@ -3,7 +3,7 @@ import { model, Schema } from "mongoose";
 const characterSchema = new Schema({
     id: {type: String},
     name: {type: String},
-    img: {type: String},
+    img: {type: [String]},
     cones: {type: [String]},
     relics: {type: [String]},
     planars: {type: [String]},
