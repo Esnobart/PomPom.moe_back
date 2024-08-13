@@ -1,4 +1,4 @@
-import { getCones, getCone } from "../sevices/conesService";
+import { getCones, getCone } from "../sevices/conesService.js";
 
 export const getAllCones = async (req, res, next) => {
     try {

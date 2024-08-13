@@ -1,5 +1,5 @@
-import { HSRchar } from "../models/charactersModel";
-import { HSRplanars } from "../models/planarsModel";
+import { HSRchar } from "../models/charactersModel.js";
+import { HSRplanars } from "../models/planarsModel.js";
 
 async function getPlanars() {
     try {

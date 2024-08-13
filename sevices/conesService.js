@@ -1,5 +1,5 @@
-import { HSRchar } from "../models/charactersModel";
-import { HSRcones } from "../models/conesModel";
+import { HSRchar } from "../models/charactersModel.js";
+import { HSRcones } from "../models/conesModel.js";
 
 async function getCones() {
     try {
