@@ -1,11 +1,37 @@
 [
     {
+        "id": "Yunli",
+        "name": "Юньли",
+        "rarity": "5",
+        "path": "Разрушение",
+        "type": "Физический",
+        "img": [
+            "https://i.imgur.com/zdtOp4V.png",
+            "https://i.imgur.com/uBLv831.png"
+        ],
+        "cones": ["300", "301", "304", "308", "306"],
+        "relics": ["05", "15"],
+        "planars": ["63", "57"],
+        "stats": [
+            {
+                "body": "х",
+                "boots": "х",
+                "sphere": "х",
+                "rope": "х"
+            }
+        ],
+        "addStats": "х",
+        "additionally": "х"
+    },
+    {
         "id": "Jade",
         "name": "Яшма",
         "rarity": "5",
+        "path": "Эрудиция",
+        "type": "Квантовый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Character_Jade_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240706170539",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Character_Jade_Icon.png/revision/latest?cb=20240619072848"
+            "https://i.imgur.com/xkjAsNO.png",
+            "https://i.imgur.com/KT7kaas.png"
         ],
         "cones": ["300", "301", "304", "308", "306"],
         "relics": ["05", "15"],
@@ -25,9 +51,11 @@
         "id": "Firefly",
         "name": "Светлячок",
         "rarity": "5",
+        "path": "Разрушение",
+        "type": "Огненный",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Character_Firefly_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240619022729",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9e/Character_Firefly_Icon.png/revision/latest?cb=20240619072408"
+            "https://i.imgur.com/T5yXeno.png",
+            "https://i.imgur.com/5uqJmcY.png"
         ],
         "cones": ["100", "105", "111", "110"],
         "relics": ["19", "16"],
@@ -44,11 +72,13 @@
     },
     {
         "id": "RuanMei",
-        "name": "ЖуаньМэй",
+        "name": "Жуань Мэй",
         "rarity": "5",
+        "path": "Гармония",
+        "type": "Ледяной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Character_Ruan_Mei_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20231227021137",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Character_Ruan_Mei_Icon.png/revision/latest?cb=20231227130539"
+            "https://i.imgur.com/Gof5P4m.png",
+            "https://i.imgur.com/XkeLEfj.png"
         ],
         "cones": ["402", "403", "410", "406"],
         "relics": ["18", "16"],
@@ -67,9 +97,11 @@
         "id": "Boothill",
         "name": "Бутхилл",
         "rarity": "5",
+        "path": "Охота",
+        "type": "Физический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Character_Boothill_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240624231026",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Character_Boothill_Icon.png/revision/latest?cb=20240525031219"
+            "https://i.imgur.com/fQYnjWu.png",
+            "https://i.imgur.com/o1m3vTZ.png"
         ],
         "cones": ["200", "205", "210", "208"],
         "relics": ["16", "11"],
@@ -88,9 +120,11 @@
         "id": "FuXuan",
         "name": "Фу Сюань",
         "rarity": "5",
+        "path": "Сохранение",
+        "type": "Квантовый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3e/Character_Fu_Xuan_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230928224921",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Character_Fu_Xuan_Icon.png/revision/latest?cb=20230723080902"
+            "https://i.imgur.com/aLvMfbi.png",
+            "https://i.imgur.com/GiseCbV.png"
         ],
         "cones": ["601", "602", "603", "610", "609"],
         "relics": ["09", "06"],
@@ -109,9 +143,11 @@
         "id": "Robin",
         "name": "Зарянка",
         "rarity": "5",
+        "path": "Гармония",
+        "type": "Физический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/92/Character_Robin_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240508021256",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Character_Robin_Icon.png/revision/latest?cb=20240525031318"
+            "https://i.imgur.com/hGYQ0qy.png",
+            "https://i.imgur.com/BSqP7LS.png"
         ],
         "cones": ["400", "403", "404", "406"],
         "relics": ["11", "10"],
@@ -130,9 +166,11 @@
         "id": "TopazAndNumby",
         "name": "Топаз и Счетовод",
         "rarity": "5",
+        "path": "Охота",
+        "type": "Огненный",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9d/Character_Topaz_and_Numby_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20231030040101",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Character_Topaz_and_Numby_Icon.png/revision/latest?cb=20231030000030"
+            "https://i.imgur.com/sY2PTRj.png",
+            "https://i.imgur.com/y9bJcOW.png"
         ],
         "cones": ["202", "205", "210", "211"],
         "relics": ["15", "04"],
@@ -151,9 +189,11 @@
         "id": "Aventurine",
         "name": "Авантюрин",
         "rarity": "5",
+        "path": "Сохранение",
+        "type": "Мнимый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Character_Aventurine_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240327104723",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Character_Aventurine_Icon.png/revision/latest?cb=20240327022115"
+            "https://i.imgur.com/lLnALqp.png",
+            "https://i.imgur.com/XXsaG2a.png"
         ],
         "cones": ["600", "602", "604", "605", "608"],
         "relics": ["08"],
@@ -172,9 +212,11 @@
         "id": "Jingliu",
         "name": "Цзинлю",
         "rarity": "5",
+        "path": "Разрушение",
+        "type": "Ледяной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/97/Character_Jingliu_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240525000314",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f9/Character_Jingliu_Icon.png/revision/latest?cb=20230723081213"
+            "https://i.imgur.com/3bN1fJv.png",
+            "https://i.imgur.com/4tM0VcX.png"
         ],
         "cones": ["102", "105", "107", "108"],
         "relics": ["07", "05"],
@@ -193,9 +235,11 @@
         "id": "Acheron",
         "name": "Ахерон",
         "rarity": "5",
+        "path": "Небытие",
+        "type": "Электрический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Character_Acheron_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240327021325",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/2/24/Character_Acheron_Icon.png/revision/latest?cb=20240605043757"
+            "https://i.imgur.com/4oZ2wFq.png",
+            "https://i.imgur.com/MCXT7OY.png"
         ],
         "cones": ["500", "502", "503", "504", "507", "513"],
         "relics": ["13", "01"],
@@ -214,9 +258,11 @@
         "id": "Luocha",
         "name": "Лоча",
         "rarity": "5",
+        "path": "Изобилие",
+        "type": "Мнимый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a5/Character_Luocha_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230628091054",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/2/20/Character_Luocha_Icon.png/revision/latest?cb=20230723081416"
+            "https://i.imgur.com/7YDXh4X.png",
+            "https://i.imgur.com/OH6dMAy.png"
         ],
         "cones": ["701", "702", "706", "708"],
         "relics": ["12"],
@@ -235,9 +281,11 @@
         "id": "Sparkle",
         "name": "Искорка",
         "rarity": "5",
+        "path": "Гармония",
+        "type": "Квантовый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Character_Sparkle_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240327022635",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6b/Character_Sparkle_Icon.png/revision/latest?cb=20240326110835"
+            "https://i.imgur.com/efVNGnZ.png",
+            "https://i.imgur.com/aSpziNU.png"
         ],
         "cones": ["401", "403", "407", "406", "409"],
         "relics": ["10"],
@@ -257,9 +305,11 @@
         "id": "JingYuan",
         "name": "Цзин Юань",
         "rarity": "5",
+        "path": "Эрудиция",
+        "type": "Электрический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Character_Jing_Yuan_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230210115809",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/8/88/Character_Jing_Yuan_Icon.png/revision/latest?cb=20230723081207"
+            "https://i.imgur.com/8g83pOd.png",
+            "https://i.imgur.com/iz0KRVc.png"
         ],
         "cones": ["302", "300", "301", "306", "308"],
         "relics": ["15", "01"],
@@ -278,9 +328,11 @@
         "id": "BlackSwan",
         "name": "Черный Лебедь",
         "rarity": "5",
+        "path": "Небытие",
+        "type": "Ветряной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Character_Black_Swan_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240220023547",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Character_Black_Swan_Icon.png/revision/latest?cb=20240206104620"
+            "https://i.imgur.com/o05Yk8G.png",
+            "https://i.imgur.com/PsSGoOi.png"
         ],
         "cones": ["501", "505", "512", "508", "513"],
         "relics": ["14", "13"],
@@ -300,9 +352,11 @@
         "id": "DanHengIL",
         "name": "Дань Хэн: Пожиратель Луны",
         "rarity": "5",
+        "path": "Разрушение",
+        "type": "Мнимый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2c/Character_Dan_Heng_%E2%80%A2_Imbibitor_Lunae_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230818234313",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2a/Character_Dan_Heng_%E2%80%A2_Imbibitor_Lunae_Icon.png/revision/latest?cb=20240326111321"
+            "https://i.imgur.com/xzm0oKX.png",
+            "https://i.imgur.com/Y7xtj4v.png"
         ],
         "cones": ["101", "105", "108", "110"],
         "relics": ["11", "17"],
@@ -321,9 +375,11 @@
         "id": "DrRatio",
         "name": "Доктор Рацио",
         "rarity": "5",
+        "path": "Охота",
+        "type": "Мнимый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/5/56/Character_Dr._Ratio_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20231227132629",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Character_Dr._Ratio_Icon.png/revision/latest?cb=20231227130912"
+            "https://i.imgur.com/VmXocm3.png",
+            "https://i.imgur.com/fdVVj7z.png"
         ],
         "cones": ["201", "202", "207", "211"],
         "relics": ["13", "17", "15"],
@@ -342,9 +398,11 @@
         "id": "Kafka",
         "name": "Кафка",
         "rarity": "5",
+        "path": "Небытие",
+        "type": "Электрический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/95/Character_Kafka_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230809042240",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Character_Kafka_Icon.png/revision/latest?cb=20230723081234"
+            "https://i.imgur.com/LYBxGA5.png",
+            "https://i.imgur.com/iCUODsT.png"
         ],
         "cones": ["503", "505", "513", "510"],
         "relics": ["14", "01"],
@@ -363,9 +421,11 @@
         "id": "Blade",
         "name": "Блэйд",
         "rarity": "5",
+        "path": "Разрушение",
+        "type": "Ветряной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Character_Blade_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230501004859",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Character_Blade_Icon.png/revision/latest?cb=20230723080612"
+            "https://i.imgur.com/WkOeIuT.png",
+            "https://i.imgur.com/CeWJQNB.png"
         ],
         "cones": ["103", "104", "107", "110"],
         "relics": ["09"],
@@ -384,9 +444,11 @@
         "id": "Argenti",
         "name": "Аргенти",
         "rarity": "5",
+        "path": "Эрудиция",
+        "type": "Физический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Character_Argenti_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20231206232011",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Character_Argenti_Icon.png/revision/latest?cb=20231209093828S"
+            "https://i.imgur.com/YjCs9YX.png",
+            "https://i.imgur.com/JdMNG7P.png"
         ],
         "cones": ["301", "302", "304", "309", "306"],
         "relics": ["02"],
@@ -405,9 +467,11 @@
         "id": "SilverWolf",
         "name": "Серебряный Волк",
         "rarity": "5",
+        "path": "Небытие",
+        "type": "Квантовый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Character_Silver_Wolf_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230216230911",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a3/Character_Silver_Wolf_Icon.png/revision/latest?cb=20230723081754"
+            "https://i.imgur.com/rPxkN7m.png",
+            "https://i.imgur.com/NYd4i8E.png"
         ],
         "cones": ["502", "504", "506"],
         "relics": ["05"],
@@ -426,9 +490,11 @@
         "id": "Huohuo",
         "name": "Хохо",
         "rarity": "5",
+        "path": "Изобилие",
+        "type": "Ветряной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Character_Huohuo_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20231115031700",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Character_Huohuo_Icon.png/revision/latest?cb=20231209094156"
+            "https://i.imgur.com/w0lEJRT.png",
+            "https://i.imgur.com/KfeetnP.png"
         ],
         "cones": ["700", "702", "704", "706", "709"],
         "relics": ["12", "09"],
@@ -447,9 +513,11 @@
         "id": "Seele",
         "name": "Зеле",
         "rarity": "5",
+        "path": "Охота",
+        "type": "Квантовый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/5/58/Character_Seele_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240121123334",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9a/Character_Seele_Icon.png/revision/latest?cb=20230723081718"
+            "https://i.imgur.com/tTPIX0K.png",
+            "https://i.imgur.com/yOCBTG2.png"
         ],
         "cones": ["203", "205", "211", "207", "210"],
         "relics": ["05"],
@@ -468,9 +536,11 @@
         "id": "Bailu",
         "name": "Байлу",
         "rarity": "5",
+        "path": "Изобилие",
+        "type": "Электрический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e9/Character_Bailu_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230210120736",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Character_Bailu_Icon.png/revision/latest?cb=20230723080553"
+            "https://i.imgur.com/AAYy3h0.png",
+            "https://i.imgur.com/7znxOtL.png"
         ],
         "cones": ["700", "702", "704", "706", "709"],
         "relics": ["12", "09"],
@@ -489,9 +559,11 @@
         "id": "Bronya",
         "name": "Броня",
         "rarity": "5",
+        "path": "Гармония",
+        "type": "Ветряной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Character_Bronya_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240121130128",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Character_Bronya_Icon.png/revision/latest?cb=20230723080648"
+            "https://i.imgur.com/cCusuPE.png",
+            "https://i.imgur.com/QwMRHHZ.png"
         ],
         "cones": ["301", "300", "304", "307", "408"],
         "relics": ["10"],
@@ -510,9 +582,11 @@
         "id": "Himeko",
         "name": "Химеко",
         "rarity": "5",
+        "path": "Эрудиция",
+        "type": "Огненный",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Character_Himeko_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230525090036",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/0/00/Character_Himeko_Icon.png/revision/latest?cb=20230723081029"
+            "https://i.imgur.com/MqVoCft.png",
+            "https://i.imgur.com/UhcrabL.png"
         ],
         "cones": ["302", "303", "306", "307", "308"],
         "relics": ["15", "04"],
@@ -531,9 +605,11 @@
         "id": "Gepard",
         "name": "Гепард",
         "rarity": "5",
+        "path": "Сохранение",
+        "type": "Ледяной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Character_Gepard_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230216232354",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/7/75/Character_Gepard_Icon.png/revision/latest?cb=20230723080948"
+            "https://i.imgur.com/G6zegv8.png",
+            "https://i.imgur.com/dX823hm.png"
         ],
         "cones": ["602", "609"],
         "relics": ["08"],
@@ -552,9 +628,11 @@
         "id": "Clara",
         "name": "Клара",
         "rarity": "5",
+        "path": "Разрушение",
+        "type": "Физический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Character_Clara_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230216231958",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Character_Clara_Icon.png/revision/latest?cb=20230723080716"
+            "https://i.imgur.com/jeyHBl7.png",
+            "https://i.imgur.com/heyEHQr.png"
         ],
         "cones": ["101", "104", "105", "108"],
         "relics": ["02", "09"],
@@ -573,9 +651,11 @@
         "id": "Welt",
         "name": "Вельт Янг",
         "rarity": "5",
+        "path": "Небытие",
+        "type": "Мнимый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Character_Welt_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230525090017",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Character_Welt_Icon.png/revision/latest?cb=20230723082022"
+            "https://i.imgur.com/vl7YCqx.png",
+            "https://i.imgur.com/iP1yv51.png"
         ],
         "cones": ["500", "502", "504", "513", "507"],
         "relics": ["17", "13"],
@@ -594,9 +674,11 @@
         "id": "Yanqing",
         "name": "Яньцин",
         "rarity": "5",
+        "path": "Охота",
+        "type": "Ледяной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Character_Yanqing_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230210121516",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Character_Yanqing_Icon.png/revision/latest?cb=20230723082139"
+            "https://i.imgur.com/R73Ce4g.png",
+            "https://i.imgur.com/DJanjHu.png"
         ],
         "cones": ["204", "205", "210"],
         "relics": ["11"],
@@ -615,9 +697,11 @@
         "id": "TrailblazerHarmony",
         "name": "Первопроходец (Гармония)",
         "rarity": "5",
+        "path": "Гармония",
+        "type": "Мнимый",
         "img": [
-            "https://honkailab.com/wp-content/uploads/TrailblazerImaginary.webp",
-            "https://www.prydwen.gg/static/c464a14e5028876e81405abb38700edc/b26e2/harmony_mc_card.webp"
+            "https://i.imgur.com/61lHWll.png",
+            "https://i.imgur.com/A1pdKBl.png"
         ],
         "cones": ["402", "403", "410", "408"],
         "relics": ["18"],
@@ -636,9 +720,11 @@
         "id": "TrailblazerPreservation",
         "name": "Первопроходец (Сохранение)",
         "rarity": "5",
+        "path": "Сохранение",
+        "type": "Огненный",
         "img": [
-            "https://honkai-starrail.ru/wp-content/uploads/2020/02/822c96dd046ecf086f1b4b2c6f2cf7620b5844c53631e968370f5cb8f74ee18a.webp",
-            "https://honkai-starrail.ru/wp-content/uploads/2024/06/Trailblazer-Preservation.webp"
+            "https://i.imgur.com/WTJT6ja.png",
+            "https://i.imgur.com/OsUkhqe.png"
         ],
         "cones": ["602", "603", "610"],
         "relics": ["08"],
@@ -657,9 +743,11 @@
         "id": "TrailblazerDestruction",
         "name": "Первопроходец (Разрушение)",
         "rarity": "5",
+        "path": "Разрушение",
+        "type": "Физический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6f/Character_Trailblazer_%28F%29_Destruction_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230501005741",
-            ""
+            "https://i.imgur.com/b9YS6MG.png",
+            "https://i.imgur.com/hqxVAuo.png"
         ],
         "cones": ["105", "104", "106"],
         "relics": ["02"],
@@ -678,9 +766,11 @@
         "id": "Gallagher",
         "name": "Галлахер",
         "rarity": "4",
+        "path": "Изобилие",
+        "type": "Огненный",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2d/Character_Gallagher_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240327022011",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/1/12/Character_Gallagher_Icon.png/revision/latest?cb=20240325014209"
+            "https://i.imgur.com/wnQOSLg.png",
+            "https://i.imgur.com/b73iDfv.png"
         ],
         "cones": ["700", "703", "709"],
         "relics": ["16", "12"],
@@ -699,9 +789,11 @@
         "id": "Misha",
         "name": "Миша",
         "rarity": "4",
+        "path": "Разрушение",
+        "type": "Ледяной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Character_Misha_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240206022717",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4d/Character_Misha_Icon.png/revision/latest?cb=20240206104846"
+            "https://i.imgur.com/9baX0a2.png",
+            "https://i.imgur.com/cfduLPt.png"
         ],
         "cones": ["105", "107"],
         "relics": ["07"],
@@ -720,9 +812,11 @@
         "id": "Xueyi",
         "name": "Сюэи",
         "rarity": "4",
+        "path": "Разрушение",
+        "type": "Квантовый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Character_Xueyi_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20231227045314",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Character_Xueyi_Icon.png/revision/latest?cb=20231227130429"
+            "https://i.imgur.com/SmJPstH.png",
+            "https://i.imgur.com/K7yzn50.png"
         ],
         "cones": ["105", "108"],
         "relics": ["05"],
@@ -741,9 +835,11 @@
         "id": "Pela",
         "name": "Пела",
         "rarity": "4",
+        "path": "Небытие",
+        "type": "Ледяной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c9/Character_Pela_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230525090100",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Character_Pela_Icon.png/revision/latest?cb=20230723081559"
+            "https://i.imgur.com/KLBYtFZ.png",
+            "https://i.imgur.com/ue3ObOb.png"
         ],
         "cones": ["502", "504", "511", "506"],
         "relics": ["10", "06"],
@@ -762,9 +858,11 @@
         "id": "Luka",
         "name": "Лука",
         "rarity": "4",
+        "path": "Небытие",
+        "type": "Физический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Character_Luka_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230809042157",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Character_Luka_Icon.png/revision/latest?cb=20230723081255"
+            "https://i.imgur.com/ivnA8SZ.png",
+            "https://i.imgur.com/SjNxeen.png"
         ],
         "cones": ["505", "504", "511", "508"],
         "relics": ["14"],
@@ -783,9 +881,11 @@
         "id": "Hook",
         "name": "Хук",
         "rarity": "4",
+        "path": "Разрушение",
+        "type": "Огненный",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Character_Hook_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230525090126",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Character_Hook_Icon.png/revision/latest?cb=20230723081051"
+            "https://i.imgur.com/8FPtfhP.png",
+            "https://i.imgur.com/IYqrUqi.png"
         ],
         "cones": ["105", "106", "109"],
         "relics": ["04"],
@@ -801,12 +901,37 @@
         "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
     },
     {
-        "id": "March7th",
+        "id": "March7th(Hunt)",
         "name": "Март 7",
         "rarity": "4",
+        "path": "Охота",
+        "type": "Мнимый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Character_March_7th_%28Preservation%29_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230525090156",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d3/Character_March_7th_Icon.png/revision/latest?cb=20230723081458"
+            "https://i.imgur.com/U0swUQu.png",
+            "https://i.imgur.com/9CLFt3D.png"
+        ],
+        "cones": ["100", "100", "100", "100"],
+        "relics": ["01"],
+        "planars": ["01", "01"],
+        "stats": [
+            {
+                "body": "0",
+                "boots": "0",
+                "sphere": "0",
+                "rope": "0"
+            }
+        ],
+        "addStats": "0"
+    },
+    {
+        "id": "March7th(Preservation)",
+        "name": "Март 7",
+        "rarity": "4",
+        "path": "Сохранение",
+        "type": "Ледяной",
+        "img": [
+            "https://i.imgur.com/DUYq3cg.png",
+            "https://i.imgur.com/mxyT3mT.png"
         ],
         "cones": ["600", "602", "609", "608"],
         "relics": ["08"],
@@ -825,9 +950,11 @@
         "id": "Hanya",
         "name": "Ханья",
         "rarity": "4",
+        "path": "Гармония",
+        "type": "Физический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Character_Hanya_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20231206232120",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Character_Hanya_Icon.png/revision/latest?cb=20231209094526"
+            "https://i.imgur.com/tcVRckF.png",
+            "https://i.imgur.com/m4ob1uU.png"
         ],
         "cones": ["503", "508", "506"],
         "relics": ["06", "10"],
@@ -846,9 +973,11 @@
         "id": "Lynx",
         "name": "Рысь",
         "rarity": "4",
+        "path": "Изобилие",
+        "type": "Квантовый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Character_Lynx_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230719101506",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Character_Lynx_Icon.png/revision/latest?cb=20231031113034"
+            "https://i.imgur.com/hyqh0NA.png",
+            "https://i.imgur.com/QgACP71.png"
         ],
         "cones": ["700", "703", "709"],
         "relics": ["12"],
@@ -867,9 +996,11 @@
         "id": "Serval",
         "name": "Сервал",
         "rarity": "4",
+        "path": "Эрудиция",
+        "type": "Электрический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Character_Serval_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230525090108",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Character_Serval_Icon.png/revision/latest?cb=20230723081736"
+            "https://i.imgur.com/DuZHkjM.png",
+            "https://i.imgur.com/Z8KJbsv.png"
         ],
         "cones": ["303", "302", "304", "306"],
         "relics": ["01"],
@@ -888,9 +1019,11 @@
         "id": "DanHeng",
         "name": "Дань Хэн",
         "rarity": "4",
+        "path": "Охота",
+        "type": "Ветряной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e5/Character_Dan_Heng_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230525090149",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Character_Dan_Heng_Icon.png/revision/latest?cb=20230723080807"
+            "https://i.imgur.com/GeLZb9X.png",
+            "https://i.imgur.com/FDmTjOY.png"
         ],
         "cones": ["203", "201", "210"],
         "relics": ["11"],
@@ -909,9 +1042,11 @@
         "id": "Sampo",
         "name": "Сампо",
         "rarity": "4",
+        "path": "Небытие",
+        "type": "Ветряной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/65/Character_Sampo_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230525090046",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/5/53/Character_Sampo_Icon.png/revision/latest?cb=20230723081700"
+            "https://i.imgur.com/bQAkE0X.png",
+            "https://i.imgur.com/KguJoPU.png"
         ],
         "cones": ["504", "512", "510"],
         "relics": ["14", "03"],
@@ -930,9 +1065,11 @@
         "id": "Qingque",
         "name": "Цинцюэ",
         "rarity": "4",
+        "path": "Эрудиция",
+        "type": "Квантовый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Character_Qingque_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230210115335",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Character_Qingque_Icon.png/revision/latest?cb=20230723081644"
+            "https://i.imgur.com/lkb0jZ7.png",
+            "https://i.imgur.com/TB4GOXi.png"
         ],
         "cones": ["302", "305", "307"],
         "relics": ["05", "11"],
@@ -951,9 +1088,11 @@
         "id": "Tingyun",
         "name": "Тинъюнь",
         "rarity": "4",
+        "path": "Гармония",
+        "type": "Электрический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Character_Tingyun_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230210115502",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Character_Tingyun_Icon.png/revision/latest?cb=20230723081906"
+            "https://i.imgur.com/6yDPkxU.png",
+            "https://i.imgur.com/idtwGyZ.png"
         ],
         "cones": ["403", "406", "409"],
         "relics": ["10"],
@@ -972,9 +1111,11 @@
         "id": "Natasha",
         "name": "Наташа",
         "rarity": "4",
+        "path": "Изобилие",
+        "type": "Физический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7e/Character_Natasha_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240525042421",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Character_Natasha_Icon.png/revision/latest?cb=20230723081534"
+            "https://i.imgur.com/6PJOUMk.png",
+            "https://i.imgur.com/77xgtQn.png"
         ],
         "cones": ["702", "708", "709", "704"],
         "relics": ["12"],
@@ -993,9 +1134,11 @@
         "id": "Asta",
         "name": "Аста",
         "rarity": "4",
+        "path": "Гармония",
+        "type": "Огненный",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bd/Character_Asta_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230216231122",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9f/Character_Asta_Icon.png/revision/latest?cb=20230723080506"
+            "https://i.imgur.com/Q9ileho.png",
+            "https://i.imgur.com/9xkbj38.png"
         ],
         "cones": ["408", "409", "406", "410"],
         "relics": ["10", "16"],
@@ -1014,9 +1157,11 @@
         "id": "Arlan",
         "name": "Арлан",
         "rarity": "4",
+        "path": "Разрушение",
+        "type": "Электрический",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Character_Arlan_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230216231038",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Character_Arlan_Icon.png/revision/latest?cb=20230723080444"
+            "https://i.imgur.com/8vbNtVa.png",
+            "https://i.imgur.com/7DcMCAE.png"
         ],
         "cones": ["103", "104", "105", "107", "106", "108"],
         "relics": ["01", "09"],
@@ -1035,9 +1180,11 @@
         "id": "Yukong",
         "name": "Юйкун",
         "rarity": "4",
+        "path": "Гармония",
+        "type": "Мнимый",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Character_Yukong_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230628090836",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/3/32/Character_Yukong_Icon.png/revision/latest?cb=20230723082209"
+            "https://i.imgur.com/qfUuLPP.png",
+            "https://i.imgur.com/SYviuWb.png"
         ],
         "cones": ["403", "406", "409"],
         "relics": ["11"],
@@ -1056,9 +1203,11 @@
         "id": "Herta",
         "name": "Герта",
         "rarity": "4",
+        "path": "Эрудиция",
+        "type": "Ледяной",
         "img": [
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Character_Herta_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20230216231220",
-            "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Character_Herta_Icon.png/revision/latest?cb=20230723081012"
+            "https://i.imgur.com/New6vJJ.png",
+            "https://i.imgur.com/4QmS2b0.png"
         ],
         "cones": ["303", "308", "304"],
         "relics": ["15", "06"],

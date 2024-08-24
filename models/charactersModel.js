@@ -3,6 +3,9 @@ import { model, Schema } from "mongoose";
 const characterSchema = new Schema({
     id: {type: String},
     name: {type: String},
+    rarity: {type: String},
+    path: {type: String},
+    type: {type: String},
     img: {type: [String]},
     cones: {type: [String]},
     relics: {type: [String]},
