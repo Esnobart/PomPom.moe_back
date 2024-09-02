@@ -1,7 +1,7 @@
 import { HSRchar } from "../models/charactersModel.js";
 import { HSRcones } from "../models/conesModel.js";
 
-async function getConesWithChars() {
+async function getCones() {
     try {
         // Получаем все элементы из коллекции HSRcones
         const cones = await HSRcones.find().catch(err => {
