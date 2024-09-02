@@ -9,7 +9,7 @@
             "https://i.imgur.com/zdtOp4V.png",
             "https://i.imgur.com/uBLv831.png"
         ],
-        "cones": ["300", "301", "304", "308", "306"],
+        "cones": ["100"],
         "relics": ["05", "15"],
         "planars": ["63", "57"],
         "stats": [
@@ -57,7 +57,7 @@
             "https://i.imgur.com/T5yXeno.png",
             "https://i.imgur.com/5uqJmcY.png"
         ],
-        "cones": ["100", "105", "111", "110"],
+        "cones": ["101", "106", "112", "111"],
         "relics": ["19", "16"],
         "planars": ["64", "52"],
         "stats": [
@@ -218,7 +218,7 @@
             "https://i.imgur.com/3bN1fJv.png",
             "https://i.imgur.com/4tM0VcX.png"
         ],
-        "cones": ["102", "105", "107", "108"],
+        "cones": ["103", "106", "108", "109"],
         "relics": ["07", "05"],
         "planars": ["58"],
         "stats": [
@@ -358,7 +358,7 @@
             "https://i.imgur.com/xzm0oKX.png",
             "https://i.imgur.com/Y7xtj4v.png"
         ],
-        "cones": ["101", "105", "108", "110"],
+        "cones": ["102", "106", "109", "111"],
         "relics": ["11", "17"],
         "planars": ["58", "50"],
         "stats": [
@@ -427,7 +427,7 @@
             "https://i.imgur.com/WkOeIuT.png",
             "https://i.imgur.com/CeWJQNB.png"
         ],
-        "cones": ["103", "104", "107", "110"],
+        "cones": ["104", "105", "108", "111"],
         "relics": ["09"],
         "planars": ["58", "57"],
         "stats": [
@@ -634,7 +634,7 @@
             "https://i.imgur.com/jeyHBl7.png",
             "https://i.imgur.com/heyEHQr.png"
         ],
-        "cones": ["101", "104", "105", "108"],
+        "cones": ["102", "105", "106", "109"],
         "relics": ["02", "09"],
         "planars": ["62", "57"],
         "stats": [
@@ -749,7 +749,7 @@
             "https://i.imgur.com/b9YS6MG.png",
             "https://i.imgur.com/hqxVAuo.png"
         ],
-        "cones": ["105", "104", "106"],
+        "cones": ["106", "105", "107"],
         "relics": ["02"],
         "planars": ["50"],
         "stats": [
@@ -795,7 +795,7 @@
             "https://i.imgur.com/9baX0a2.png",
             "https://i.imgur.com/cfduLPt.png"
         ],
-        "cones": ["105", "107"],
+        "cones": ["106", "108"],
         "relics": ["07"],
         "planars": ["57"],
         "stats": [
@@ -818,7 +818,7 @@
             "https://i.imgur.com/SmJPstH.png",
             "https://i.imgur.com/K7yzn50.png"
         ],
-        "cones": ["105", "108"],
+        "cones": ["106", "109"],
         "relics": ["05"],
         "planars": ["57"],
         "stats": [
@@ -887,7 +887,7 @@
             "https://i.imgur.com/8FPtfhP.png",
             "https://i.imgur.com/IYqrUqi.png"
         ],
-        "cones": ["105", "106", "109"],
+        "cones": ["106", "107", "110"],
         "relics": ["04"],
         "planars": ["58"],
         "stats": [
@@ -1163,7 +1163,7 @@
             "https://i.imgur.com/8vbNtVa.png",
             "https://i.imgur.com/7DcMCAE.png"
         ],
-        "cones": ["103", "104", "105", "107", "106", "108"],
+        "cones": ["104", "105", "106", "108", "107", "109"],
         "relics": ["01", "09"],
         "planars": ["50", "58"],
         "stats": [

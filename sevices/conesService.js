@@ -12,12 +12,13 @@ async function getCones() {
                 console.error(err);
                 return [];
             });
+            const charsInfo = chars.map(char => ({
+                id: char.id,
+                img: char.img
+            }));
             return {
                 ...cone._doc,
-                chars: {
-                    id: chars.id,
-                    img: chars.img
-                }
+                chars: charsInfo
             };
         }));
         return conesWithChars;
