@@ -3,30 +3,23 @@ import { HSRcones } from "../models/conesModel.js";
 
 async function getCones() {
     try {
-        // Получаем все элементы из коллекции HSRcones
         const cones = await HSRcones.find().catch(err => {
             console.error(err);
             return null;
         });
-
-        if (!cones) {
-            return null;
-        }
-
-        // Проходим по каждому конусу и находим соответствующих персонажей
         const conesWithChars = await Promise.all(cones.map(async (cone) => {
             const chars = await HSRchar.find({ cones: cone.id }).catch(err => {
                 console.error(err);
                 return [];
             });
-
-            // Возвращаем конус с добавленным массивом персонажей
             return {
-                ...cone._doc,  // Раскрываем все свойства текущего конуса
-                chars: chars   // Добавляем массив найденных персонажей
+                ...cone._doc,
+                chars: {
+                    id: chars.id,
+                    img: chars.img
+                }
             };
         }));
-
         return conesWithChars;
     } catch (err) {
         console.error(err.message);
