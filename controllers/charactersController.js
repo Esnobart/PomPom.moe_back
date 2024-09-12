@@ -1,4 +1,4 @@
-import { getCharacters, getCharacter, updateNew, updateRerun } from "../sevices/charactersService.js";
+import { getCharacters, getCharacter, getNewStatus } from "../sevices/charactersService.js";
 
 export const getAllChars = async (req, res, next) => {
     try {
@@ -18,18 +18,9 @@ export const getCharacterById = async (req, res, next) => {
     }
 }
 
-export const updateNewStatus = async (req, res, next) => {
+export const updateStatus = async (req, res, next) => {
     try {
-        const response = await updateNew(req.body.id, req.body.isNew);
-        res.status(200).send(response)
-    } catch (err) {
-        next(err)
-    }
-}
-
-export const updateRerunStatus = async (req, res, next) => {
-    try {
-        const response = await updateRerun(req.body.id, req.body.rerun);
+        const response = await getNewStatus(req.params.id, req.body);
         res.status(200).send(response)
     } catch (err) {
         next(err)

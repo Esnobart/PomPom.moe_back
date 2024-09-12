@@ -18,7 +18,7 @@ const characterSchema = new Schema({
     },
     addStats: {type: String},
     additionally: {type: String},
-    isNew: {type: Boolean},
+    isNewCharacter: {type: Boolean},
     rerun: {type: Boolean}
 });
 

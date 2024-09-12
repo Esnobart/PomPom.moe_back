@@ -55,22 +55,20 @@ async function getCharacter(id) {
     }
 }
 
-async function updateNew(id, isNew) {
+async function getNewStatus(id, newData) {
     try {
-        return await HSRchar.findOneAndUpdate({ id: id }, {isNew}, {new: true});
+        const { isNewCharacter, rerun } = newData;
+        if (typeof isNewCharacter === 'boolean') {
+            return await HSRchar.findOneAndUpdate({ id: id }, {isNewCharacter}, {new: true});
+        }
+        if (typeof rerun === 'boolean') {
+            return await HSRchar.findOneAndUpdate({ id: id }, {rerun}, {new: true});
+        }
+        return null
     } catch (err) {
         console.error(err.message);
         return null
     }
 }
 
-async function updateRerun(id, rerun) {
-    try {
-        return await HSRchar.findOneAndUpdate({ id: id }, {rerun}, {new: true});
-    } catch (err) {
-        console.error(err.message);
-        return null
-    }
-}
-
-export { getCharacters, getCharacter, updateNew, updateRerun }
+export { getCharacters, getCharacter, getNewStatus }
