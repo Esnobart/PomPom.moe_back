@@ -19,12 +19,15 @@ async function getPlanar(id) {
         console.error(err);
         return null
     });
-    const chars = await HSRchar.find({ planars: planar.id })
+    const chars = await HSRchar.find({ planars: planar.id });
+    const sortedChars = planar.map(planarId => 
+        chars.find(char => char.id === planarId)
+    );
     const response = {
         id: planar.id,
         name: planar.name,
         img: planar.img,
-        chars: chars.map(char => ({
+        chars: sortedChars.map(char => ({
             charId: char.id,
             charName: char.name,
             charImg: char.img

@@ -19,7 +19,10 @@ async function getRelic(id) {
         console.error(err);
         return null
     });
-    const chars = await HSRchar.find({ relics: relic.id })
+    const chars = await HSRchar.find({ relics: relic.id });
+    const sortedChars = relic.map(relicId => 
+        chars.find(char => char.id === relicId)
+    );
     const response = {
         id: relic.id,
         name: relic.name,

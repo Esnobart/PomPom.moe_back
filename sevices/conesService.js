@@ -34,12 +34,15 @@ async function getCone(id) {
         console.error(err);
         return null
     });
-    const chars = await HSRchar.find({ cones: cone.id })
+    const chars = await HSRchar.find({ cones: cone.id });
+    const sortedChars = cone.map(coneId => 
+        chars.find(char => char.id === coneId)
+    );
     const response = {
         id: cone.id,
         name: cone.name,
         img: cone.img,
-        chars: chars.map(char => ({
+        chars: sortedChars.map(char => ({
             charId: char.id,
             charName: char.name,
             charImg: char.img

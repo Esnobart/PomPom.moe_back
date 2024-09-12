@@ -19,39 +19,39 @@ async function getCharacters() {
 async function getCharacter(id) {
     try {
         const char = await HSRchar.findOne({ id: id }).catch(err => {
-            console.error(err)
-            return null
+            console.error(err);
+            return null;
         });
-        const cones = await HSRcones.find({ id: { $in: char.cones } });
-        const relics = await HSRrelics.find({ id: { $in: char.relics } });
-        const planars = await HSRplanars.find({ id: { $in: char.planars } });
+
+        const sortByOriginalOrder = (originalIds, items) => 
+            originalIds.map(id => items.find(item => item.id === id));
+
+        const [cones, relics, planars] = await Promise.all([
+            HSRcones.find({ id: { $in: char.cones } }),
+            HSRrelics.find({ id: { $in: char.relics } }),
+            HSRplanars.find({ id: { $in: char.planars } })
+        ]);
+
+        const sortedCones = sortByOriginalOrder(char.cones, cones);
+        const sortedRelics = sortByOriginalOrder(char.relics, relics);
+        const sortedPlanars = sortByOriginalOrder(char.planars, planars);
+
         const response = {
             id: char.id,
             name: char.name,
             img: char.img,
-            cones: cones.map(cone => ({
-                id: cone.id,
-                name: cone.name,
-                img: cone.img
-            })),
-            relics: relics.map(relic => ({
-                id: relic.id,
-                name: relic.name,
-                img: relic.img
-            })),
-            planars: planars.map(planar => ({
-                id: planar.id,
-                name: planar.name,
-                img: planar.img
-            })),
+            cones: sortedCones.map(({ id, name, img }) => ({ id, name, img })),
+            relics: sortedRelics.map(({ id, name, img }) => ({ id, name, img })),
+            planars: sortedPlanars.map(({ id, name, img }) => ({ id, name, img })),
             stats: char.stats,
             addStats: char.addStats,
             additionally: char.additionally
-        }
-        return response
+        };
+
+        return response;
     } catch (err) {
         console.error(err.message);
-        return null
+        return null;
     }
 }
 
