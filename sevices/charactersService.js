@@ -55,4 +55,22 @@ async function getCharacter(id) {
     }
 }
 
-export { getCharacters, getCharacter }
+async function updateNew(id, isNew) {
+    try {
+        return await HSRchar.findOneAndUpdate({ id: id }, {isNew}, {new: true});
+    } catch (err) {
+        console.error(err.message);
+        return null
+    }
+}
+
+async function updateRerun(id, rerun) {
+    try {
+        return await HSRchar.findOneAndUpdate({ id: id }, {rerun}, {new: true});
+    } catch (err) {
+        console.error(err.message);
+        return null
+    }
+}
+
+export { getCharacters, getCharacter, updateNew, updateRerun }

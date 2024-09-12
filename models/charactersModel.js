@@ -17,7 +17,9 @@ const characterSchema = new Schema({
         rope: {type: String}
     },
     addStats: {type: String},
-    additionally: {type: String}
+    additionally: {type: String},
+    isNew: {type: Boolean},
+    rerun: {type: Boolean}
 });
 
 export const HSRchar = model('characters', characterSchema);

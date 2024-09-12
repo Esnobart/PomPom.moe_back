@@ -1,143 +1,30 @@
 [
     {
-        "id": "Yunli",
-        "name": "Юньли",
+        "id": "Feixiao",
+        "name": "Фейсяо",
         "rarity": "5",
-        "path": "Разрушение",
-        "type": "Физический",
+        "path": "Охота",
+        "type": "Ветряной",
         "img": [
-            "https://i.imgur.com/zdtOp4V.png",
-            "https://i.imgur.com/uBLv831.png"
+            "https://i.imgur.com/BtPQxfJ.png",
+            "",
+            "https://i.imgur.com/M6g2Ccb.png"
         ],
-        "cones": ["100"],
-        "relics": ["05", "15"],
-        "planars": ["63", "57"],
+        "cones": ["H13", "H11", "H10", "H2", "H7", "H1"],
+        "relics": ["20", "15"],
+        "planars": ["65", "63"],
         "stats": [
             {
-                "body": "х",
-                "boots": "х",
-                "sphere": "х",
-                "rope": "х"
-            }
-        ],
-        "addStats": "х",
-        "additionally": "х"
-    },
-    {
-        "id": "Jade",
-        "name": "Яшма",
-        "rarity": "5",
-        "path": "Эрудиция",
-        "type": "Квантовый",
-        "img": [
-            "https://i.imgur.com/xkjAsNO.png",
-            "https://i.imgur.com/KT7kaas.png"
-        ],
-        "cones": ["300", "301", "304", "308", "306"],
-        "relics": ["05", "15"],
-        "planars": ["63", "57"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки",
-                "sphere": "Бонус квант. урона",
+                "body": "Крит. урон",
+                "boots": "Скорость",
+                "sphere": "Бонус ветр. урона",
                 "rope": "Сила атаки"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки > Сопротивление эффектам",
-        "additionally": "Если в отряде два персонажа Эрудиции - выбирайте Мир Идзумо и Царство Такама, если один - Замершее Салсотто"
-    },
-    {
-        "id": "Firefly",
-        "name": "Светлячок",
-        "rarity": "5",
-        "path": "Разрушение",
-        "type": "Огненный",
-        "img": [
-            "https://i.imgur.com/T5yXeno.png",
-            "https://i.imgur.com/5uqJmcY.png"
-        ],
-        "cones": ["101", "106", "112", "111"],
-        "relics": ["19", "16"],
-        "planars": ["64", "52"],
-        "stats": [
-            {
-                "body": "Сила атаки",
-                "boots": "Скорость",
-                "sphere": "Сила атаки/Бонус огн. урона",
-                "rope": "Эффект пробития"
-            }
-        ],
-        "addStats": "Эффект пробития > Скорость > Сила атаки > Сопротивление эффектам"
-    },
-    {
-        "id": "RuanMei",
-        "name": "Жуань Мэй",
-        "rarity": "5",
-        "path": "Гармония",
-        "type": "Ледяной",
-        "img": [
-            "https://i.imgur.com/Gof5P4m.png",
-            "https://i.imgur.com/XkeLEfj.png"
-        ],
-        "cones": ["402", "403", "410", "406"],
-        "relics": ["18", "16"],
-        "planars": ["52", "51"],
-        "stats": [
-            {
-                "body": "HP/Защита",
-                "boots": "Скорость",
-                "sphere": "HP/Защита",
-                "rope": "Скорость восст. энергии/Эффект пробития"
-            }
-        ],
-        "addStats": "Эффект пробития > Скорость > HP > Защита"
-    },
-    {
-        "id": "Boothill",
-        "name": "Бутхилл",
-        "rarity": "5",
-        "path": "Охота",
-        "type": "Физический",
-        "img": [
-            "https://i.imgur.com/fQYnjWu.png",
-            "https://i.imgur.com/o1m3vTZ.png"
-        ],
-        "cones": ["200", "205", "210", "208"],
-        "relics": ["16", "11"],
-        "planars": ["52", "58"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Скорость",
-                "sphere": "Бонус физ. урона",
-                "rope": "Эффект пробития"
-            }
-        ],
-        "addStats": "Скорость/Эффект пробития > Крит. шанс/Крит. урон > Сила атаки"
-    },
-    {
-        "id": "FuXuan",
-        "name": "Фу Сюань",
-        "rarity": "5",
-        "path": "Сохранение",
-        "type": "Квантовый",
-        "img": [
-            "https://i.imgur.com/aLvMfbi.png",
-            "https://i.imgur.com/GiseCbV.png"
-        ],
-        "cones": ["601", "602", "603", "610", "609"],
-        "relics": ["09", "06"],
-        "planars": ["59", "51"],
-        "stats": [
-            {
-                "body": "HP",
-                "boots": "Скорость",
-                "sphere": "HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "HP > Скорость > Защита > Сопротивление эффектам"
+        "addStats": "Скорость > Крит. шанс/Крит. урон > Сила атаки",
+        "additionally": "Скорость минимум 134",
+        "isNew": true,
+        "rerun": false
     },
     {
         "id": "Robin",
@@ -147,11 +34,12 @@
         "type": "Физический",
         "img": [
             "https://i.imgur.com/hGYQ0qy.png",
-            "https://i.imgur.com/BSqP7LS.png"
+            "https://i.imgur.com/BSqP7LS.png",
+            "https://i.imgur.com/pW3JT46.png"
         ],
-        "cones": ["400", "403", "404", "406"],
+        "cones": ["G11", "G8", "G12", "G7", "G5"],
         "relics": ["11", "10"],
-        "planars": ["53", "59", "51"],
+        "planars": ["67", "59", "51"],
         "stats": [
             {
                 "body": "Сила атаки",
@@ -160,169 +48,10 @@
                 "rope": "Скорость восст. энергии"
             }
         ],
-        "addStats": "Сила атаки > Скорость > HP/Защита"
-    },
-    {
-        "id": "TopazAndNumby",
-        "name": "Топаз и Счетовод",
-        "rarity": "5",
-        "path": "Охота",
-        "type": "Огненный",
-        "img": [
-            "https://i.imgur.com/sY2PTRj.png",
-            "https://i.imgur.com/y9bJcOW.png"
-        ],
-        "cones": ["202", "205", "210", "211"],
-        "relics": ["15", "04"],
-        "planars": ["57", "50"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Скорость",
-                "sphere": "Бонус огн. урона",
-                "rope": "Сила атаки/Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки"
-    },
-    {
-        "id": "Aventurine",
-        "name": "Авантюрин",
-        "rarity": "5",
-        "path": "Сохранение",
-        "type": "Мнимый",
-        "img": [
-            "https://i.imgur.com/lLnALqp.png",
-            "https://i.imgur.com/XXsaG2a.png"
-        ],
-        "cones": ["600", "602", "604", "605", "608"],
-        "relics": ["08"],
-        "planars": ["57", "56"],
-        "stats": [
-            {
-                "body": "Защита",
-                "boots": "Скорость/Защита",
-                "sphere": "Защита/Бонус мним. урон",
-                "rope": "Защита/Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Защита > Крит. шанс/Крит. урон > Скорость > Сопротивление эффектам"
-    },
-    {
-        "id": "Jingliu",
-        "name": "Цзинлю",
-        "rarity": "5",
-        "path": "Разрушение",
-        "type": "Ледяной",
-        "img": [
-            "https://i.imgur.com/3bN1fJv.png",
-            "https://i.imgur.com/4tM0VcX.png"
-        ],
-        "cones": ["103", "106", "108", "109"],
-        "relics": ["07", "05"],
-        "planars": ["58"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Скорость",
-                "sphere": "Бонус лед. урона",
-                "rope": "Сила атаки"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки"
-    },
-    {
-        "id": "Acheron",
-        "name": "Ахерон",
-        "rarity": "5",
-        "path": "Небытие",
-        "type": "Электрический",
-        "img": [
-            "https://i.imgur.com/4oZ2wFq.png",
-            "https://i.imgur.com/MCXT7OY.png"
-        ],
-        "cones": ["500", "502", "503", "504", "507", "513"],
-        "relics": ["13", "01"],
-        "planars": ["63", "57"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки/Скорость",
-                "sphere": "Бонус элек. урона",
-                "rope": "Сила атаки"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
-    },
-    {
-        "id": "Luocha",
-        "name": "Лоча",
-        "rarity": "5",
-        "path": "Изобилие",
-        "type": "Мнимый",
-        "img": [
-            "https://i.imgur.com/7YDXh4X.png",
-            "https://i.imgur.com/OH6dMAy.png"
-        ],
-        "cones": ["701", "702", "706", "708"],
-        "relics": ["12"],
-        "planars": ["59", "51", "50"],
-        "stats": [
-            {
-                "body": "Бонус исцеления",
-                "boots": "Скорость",
-                "sphere": "Сила атаки",
-                "rope": "Скорость восст. энергии/Сила атаки"
-            }
-        ],
-        "addStats": "Сила атаки > Скорость > Сопротивление эффектам > HP/Защита"
-    },
-    {
-        "id": "Sparkle",
-        "name": "Искорка",
-        "rarity": "5",
-        "path": "Гармония",
-        "type": "Квантовый",
-        "img": [
-            "https://i.imgur.com/efVNGnZ.png",
-            "https://i.imgur.com/aSpziNU.png"
-        ],
-        "cones": ["401", "403", "407", "406", "409"],
-        "relics": ["10"],
-        "planars": ["59", "61", "51"],
-        "stats": [
-            {
-                "body": "Крит. урон",
-                "boots": "Скорость",
-                "sphere": "HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Крит. урон > Скорость > Сопротивление эффектам",
-        "additionally": "Свидание со звёздами и Земля грёз Пенакония - вариант для квант отряда"
-    },
-    {
-        "id": "JingYuan",
-        "name": "Цзин Юань",
-        "rarity": "5",
-        "path": "Эрудиция",
-        "type": "Электрический",
-        "img": [
-            "https://i.imgur.com/8g83pOd.png",
-            "https://i.imgur.com/iz0KRVc.png"
-        ],
-        "cones": ["302", "300", "301", "306", "308"],
-        "relics": ["15", "01"],
-        "planars": ["57"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки/Скорость",
-                "sphere": "Бонус элек. урона",
-                "rope": "Сила атаки"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
+        "addStats": "Сила атаки > Скорость > HP/Защита",
+        "additionally": "Разницы между Киль и Русалки менее процента, смотрите в зависимотси от того что у вас есть.",
+        "isNew": false,
+        "rerun": true
     },
     {
         "id": "BlackSwan",
@@ -332,9 +61,10 @@
         "type": "Ветряной",
         "img": [
             "https://i.imgur.com/o05Yk8G.png",
-            "https://i.imgur.com/PsSGoOi.png"
+            "https://i.imgur.com/PsSGoOi.png",
+            "https://i.imgur.com/a5cs0qz.png"
         ],
-        "cones": ["501", "505", "512", "508", "513"],
+        "cones": ["N13", "N9", "N2", "N6", "N1"],
         "relics": ["14", "13"],
         "planars": ["58", "54", "50"],
         "stats": [
@@ -346,53 +76,9 @@
             }
         ],
         "addStats": "Шанс попадания эффектов > Сила атаки > Скорость",
-        "additionally": "Главное набрать 120% шанса попадания эффектов, а дальше качаем силу атаки"
-    },
-    {
-        "id": "DanHengIL",
-        "name": "Дань Хэн: Пожиратель Луны",
-        "rarity": "5",
-        "path": "Разрушение",
-        "type": "Мнимый",
-        "img": [
-            "https://i.imgur.com/xzm0oKX.png",
-            "https://i.imgur.com/Y7xtj4v.png"
-        ],
-        "cones": ["102", "106", "109", "111"],
-        "relics": ["11", "17"],
-        "planars": ["58", "50"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Скорость",
-                "sphere": "Бонус мним. урона",
-                "rope": "Сила атаки/Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки"
-    },
-    {
-        "id": "DrRatio",
-        "name": "Доктор Рацио",
-        "rarity": "5",
-        "path": "Охота",
-        "type": "Мнимый",
-        "img": [
-            "https://i.imgur.com/VmXocm3.png",
-            "https://i.imgur.com/fdVVj7z.png"
-        ],
-        "cones": ["201", "202", "207", "211"],
-        "relics": ["13", "17", "15"],
-        "planars": ["57"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки/Скорость",
-                "sphere": "Бонус мним. урона",
-                "rope": "Сила атаки"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки"
+        "additionally": "Главное набрать 120% шанса попадания эффектов, а дальше качаем силу атаки",
+        "isNew": false,
+        "rerun": true
     },
     {
         "id": "Kafka",
@@ -402,9 +88,10 @@
         "type": "Электрический",
         "img": [
             "https://i.imgur.com/LYBxGA5.png",
-            "https://i.imgur.com/iCUODsT.png"
+            "https://i.imgur.com/iCUODsT.png",
+            "https://i.imgur.com/NpowQuv.png"
         ],
-        "cones": ["503", "505", "513", "510"],
+        "cones": ["N11", "N9", "N1", "N4"],
         "relics": ["14", "01"],
         "planars": ["50"],
         "stats": [
@@ -415,30 +102,144 @@
                 "rope": "Сила атаки/Скорость восст. энергии"
             }
         ],
-        "addStats": "Сила атаки > Скорость > Крит. шанс/Крит. урон"
+        "addStats": "Сила атаки > Скорость > Крит. шанс/Крит. урон",
+        "isNew": false,
+        "rerun": true
     },
     {
-        "id": "Blade",
-        "name": "Блэйд",
+        "id": "Jiaoqiu",
+        "name": "Цзяоцю",
+        "rarity": "5",
+        "path": "Небытие",
+        "type": "Огненный",
+        "img": [
+            "https://i.imgur.com/MVurqr8.png",
+            "https://i.imgur.com/ohpYBvH.png",
+            "https://i.imgur.com/bLoNRl7.png"
+        ],
+        "cones": ["N15", "N12", "N3", "N13", "N2"],
+        "relics": ["13", "14"],
+        "planars": ["59", "60", "51"],
+        "stats": [
+            {
+                "body": "Шанс попадания эффектов",
+                "boots": "Скорость",
+                "sphere": "Бонус огн. урона",
+                "rope": "Скорость восст. энергии/Сила атаки"
+            }
+        ],
+        "addStats": "Шанс попадания эффектов > Скорость > Сила атаки",
+        "additionally": "В зависимости от команды. В команде с Ахерон Пленник не пойдет, а Флот Глатирамер не рекомендуется. В DoT Решимость ... жемчужинам пота будет в конце топа, а Флот Глатирамер и Киль будет лучшими решениями",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Sparkle",
+        "name": "Искорка",
+        "rarity": "5",
+        "path": "Гармония",
+        "type": "Квантовый",
+        "img": [
+            "https://i.imgur.com/efVNGnZ.png",
+            "https://i.imgur.com/aSpziNU.png",
+            "https://i.imgur.com/M8sXvMq.png"
+        ],
+        "cones": ["G10", "G8", "G4", "G5", "G2"],
+        "relics": ["10"],
+        "planars": ["59", "61", "51"],
+        "stats": [
+            {
+                "body": "Крит. урон",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Крит. урон > Скорость > Сопротивление эффектам",
+        "additionally": "Свидание со звёздами и Земля грёз Пенакония - вариант для квант отряда",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Yunli",
+        "name": "Юньли",
         "rarity": "5",
         "path": "Разрушение",
-        "type": "Ветряной",
+        "type": "Физический",
         "img": [
-            "https://i.imgur.com/WkOeIuT.png",
-            "https://i.imgur.com/CeWJQNB.png"
+            "https://i.imgur.com/zdtOp4V.png",
+            "https://i.imgur.com/uBLv831.png",
+            "https://i.imgur.com/wSZ8V9B.png"
         ],
-        "cones": ["104", "105", "108", "111"],
-        "relics": ["09"],
-        "planars": ["58", "57"],
+        "cones": ["D14", "D10", "D8", "D9", "D3", "D7"],
+        "relics": ["20", "15", "09"],
+        "planars": ["57", "65"],
         "stats": [
             {
                 "body": "Крит. шанс/Крит. урон",
-                "boots": "HP",
-                "sphere": "Бонус ветр. урона",
-                "rope": "HP"
+                "boots": "Сила атаки",
+                "sphere": "Бонус физ. урона",
+                "rope": "Сила атаки"
             }
         ],
-        "addStats": "HP > Крит. шанс/Крит. урон > Сила атаки"
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки",
+        "additionally": "Салсотто и Династия волков примерно одинаковые, но Салсотто более гибкое решение",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Huohuo",
+        "name": "Хохо",
+        "rarity": "5",
+        "path": "Изобилие",
+        "type": "Ветряной",
+        "img": [
+            "https://i.imgur.com/w0lEJRT.png",
+            "https://i.imgur.com/KfeetnP.png",
+            "https://i.imgur.com/kXOjqtn.png"
+        ],
+        "cones": ["A10", "A8", "A6", "A4", "A1"],
+        "relics": ["12", "09"],
+        "planars": ["67", "51", "59"],
+        "stats": [
+            {
+                "body": "Бонус исцеления",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "HP > Скорость > Сопротивление эффектам",
+        "additionally": "Разницы между Флот и Русалки почти нету, в зависимости от того, что у вас есть.",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Jade",
+        "name": "Яшма",
+        "rarity": "5",
+        "path": "Эрудиция",
+        "type": "Квантовый",
+        "img": [
+            "https://i.imgur.com/xkjAsNO.png",
+            "https://i.imgur.com/KT7kaas.png",
+            "https://i.imgur.com/uK2iFRD.png"
+        ],
+        "cones": ["E12", "E11", "E8", "E4", "E6"],
+        "relics": ["05", "15"],
+        "planars": ["63", "57"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки",
+                "sphere": "Бонус квант. урона",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки > Сопротивление эффектам",
+        "additionally": "Если в отряде два персонажа Эрудиции - выбирайте Мир Идзумо и Царство Такама, если один - Замершее Салсотто",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Argenti",
@@ -448,9 +249,10 @@
         "type": "Физический",
         "img": [
             "https://i.imgur.com/YjCs9YX.png",
-            "https://i.imgur.com/JdMNG7P.png"
+            "https://i.imgur.com/JdMNG7P.png",
+            "https://i.imgur.com/SD7uJ0y.png"
         ],
-        "cones": ["301", "302", "304", "309", "306"],
+        "cones": ["E11", "E10", "E8", "E3", "E6"],
         "relics": ["02"],
         "planars": ["57", "01"],
         "stats": [
@@ -461,7 +263,347 @@
                 "rope": "Скорость восст. энергии"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки"
+        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Firefly",
+        "name": "Светлячок",
+        "rarity": "5",
+        "path": "Разрушение",
+        "type": "Огненный",
+        "img": [
+            "https://i.imgur.com/T5yXeno.png",
+            "https://i.imgur.com/5uqJmcY.png",
+            "https://i.imgur.com/zcBevta.png"
+        ],
+        "cones": ["D13", "D8", "D2", "D3"],
+        "relics": ["19", "16"],
+        "planars": ["64", "52"],
+        "stats": [
+            {
+                "body": "Сила атаки",
+                "boots": "Скорость",
+                "sphere": "Сила атаки/Бонус огн. урона",
+                "rope": "Эффект пробития"
+            }
+        ],
+        "addStats": "Эффект пробития > Скорость > Сила атаки > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "RuanMei",
+        "name": "Жуань Мэй",
+        "rarity": "5",
+        "path": "Гармония",
+        "type": "Ледяной",
+        "img": [
+            "https://i.imgur.com/Gof5P4m.png",
+            "https://i.imgur.com/XkeLEfj.png",
+            "https://i.imgur.com/F4kA25G.png"
+        ],
+        "cones": ["G9", "G8", "G1", "G5"],
+        "relics": ["18", "16"],
+        "planars": ["52", "51"],
+        "stats": [
+            {
+                "body": "HP/Защита",
+                "boots": "Скорость",
+                "sphere": "HP/Защита",
+                "rope": "Скорость восст. энергии/Эффект пробития"
+            }
+        ],
+        "addStats": "Эффект пробития > Скорость > HP > Защита",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Boothill",
+        "name": "Бутхилл",
+        "rarity": "5",
+        "path": "Охота",
+        "type": "Физический",
+        "img": [
+            "https://i.imgur.com/fQYnjWu.png",
+            "https://i.imgur.com/o1m3vTZ.png",
+            "https://i.imgur.com/o60IRtc.png"
+        ],
+        "cones": ["H12", "H7", "H2", "H4"],
+        "relics": ["16", "11"],
+        "planars": ["52", "58"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Скорость",
+                "sphere": "Бонус физ. урона",
+                "rope": "Эффект пробития"
+            }
+        ],
+        "addStats": "Скорость/Эффект пробития > Крит. шанс/Крит. урон > Сила атаки",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "FuXuan",
+        "name": "Фу Сюань",
+        "rarity": "5",
+        "path": "Сохранение",
+        "type": "Квантовый",
+        "img": [
+            "https://i.imgur.com/aLvMfbi.png",
+            "https://i.imgur.com/GiseCbV.png",
+            "https://i.imgur.com/aMH4xIE.png"
+        ],
+        "cones": ["P10", "P9", "P8", "P1", "P2"],
+        "relics": ["09", "06"],
+        "planars": ["59", "51"],
+        "stats": [
+            {
+                "body": "HP",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "HP > Скорость > Защита > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "TopazAndNumby",
+        "name": "Топаз и Счетовод",
+        "rarity": "5",
+        "path": "Охота",
+        "type": "Огненный",
+        "img": [
+            "https://i.imgur.com/sY2PTRj.png",
+            "https://i.imgur.com/y9bJcOW.png",
+            "https://i.imgur.com/0uPATkc.png"
+        ],
+        "cones": ["H10", "H7", "H2", "H1"],
+        "relics": ["15", "04"],
+        "planars": ["57", "63", "66"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Скорость",
+                "sphere": "Бонус огн. урона",
+                "rope": "Сила атаки/Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Aventurine",
+        "name": "Авантюрин",
+        "rarity": "5",
+        "path": "Сохранение",
+        "type": "Мнимый",
+        "img": [
+            "https://i.imgur.com/lLnALqp.png",
+            "https://i.imgur.com/XXsaG2a.png",
+            "https://i.imgur.com/TVL904n.png"
+        ],
+        "cones": ["P11", "P9", "P7", "P6", "P3"],
+        "relics": ["08"],
+        "planars": ["57", "56"],
+        "stats": [
+            {
+                "body": "Защита",
+                "boots": "Скорость/Защита",
+                "sphere": "Защита/Бонус мним. урон",
+                "rope": "Защита/Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Защита > Крит. шанс/Крит. урон > Скорость > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Jingliu",
+        "name": "Цзинлю",
+        "rarity": "5",
+        "path": "Разрушение",
+        "type": "Ледяной",
+        "img": [
+            "https://i.imgur.com/3bN1fJv.png",
+            "https://i.imgur.com/4tM0VcX.png",
+            "https://i.imgur.com/TvgUUmj.png"
+        ],
+        "cones": ["D11", "D8", "D6", "D5"],
+        "relics": ["07", "05"],
+        "planars": ["58"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Скорость",
+                "sphere": "Бонус лед. урона",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Acheron",
+        "name": "Ахерон",
+        "rarity": "5",
+        "path": "Небытие",
+        "type": "Электрический",
+        "img": [
+            "https://i.imgur.com/4oZ2wFq.png",
+            "https://i.imgur.com/MCXT7OY.png",
+            "https://i.imgur.com/orLmYtE.png"
+        ],
+        "cones": ["N14", "N12", "N11", "N10", "N7", "N1"],
+        "relics": ["13", "01"],
+        "planars": ["63", "57"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки/Скорость",
+                "sphere": "Бонус элек. урона",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Luocha",
+        "name": "Лоча",
+        "rarity": "5",
+        "path": "Изобилие",
+        "type": "Мнимый",
+        "img": [
+            "https://i.imgur.com/7YDXh4X.png",
+            "https://i.imgur.com/OH6dMAy.png",
+            "https://i.imgur.com/DXoxmsk.png"
+        ],
+        "cones": ["A9", "A8", "A4", "A2"],
+        "relics": ["12"],
+        "planars": ["59", "51", "50"],
+        "stats": [
+            {
+                "body": "Бонус исцеления",
+                "boots": "Скорость",
+                "sphere": "Сила атаки",
+                "rope": "Скорость восст. энергии/Сила атаки"
+            }
+        ],
+        "addStats": "Сила атаки > Скорость > Сопротивление эффектам > HP/Защита",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "JingYuan",
+        "name": "Цзин Юань",
+        "rarity": "5",
+        "path": "Эрудиция",
+        "type": "Электрический",
+        "img": [
+            "https://i.imgur.com/8g83pOd.png",
+            "https://i.imgur.com/iz0KRVc.png",
+            "https://i.imgur.com/u44NzLW.png"
+        ],
+        "cones": ["E10", "E12", "E11", "E6", "E4"],
+        "relics": ["15", "01"],
+        "planars": ["57", "66"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки/Скорость",
+                "sphere": "Бонус элек. урона",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "DanHengIL",
+        "name": "Дань Хэн: Пожиратель Луны",
+        "rarity": "5",
+        "path": "Разрушение",
+        "type": "Мнимый",
+        "img": [
+            "https://i.imgur.com/xzm0oKX.png",
+            "https://i.imgur.com/Y7xtj4v.png",
+            "https://i.imgur.com/doYyoEx.png"
+        ],
+        "cones": ["D12", "D8", "D5", "D3"],
+        "relics": ["11", "17"],
+        "planars": ["58", "50"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Скорость",
+                "sphere": "Бонус мним. урона",
+                "rope": "Сила атаки/Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "DrRatio",
+        "name": "Доктор Рацио",
+        "rarity": "5",
+        "path": "Охота",
+        "type": "Мнимый",
+        "img": [
+            "https://i.imgur.com/VmXocm3.png",
+            "https://i.imgur.com/fdVVj7z.png",
+            "https://i.imgur.com/p9R4eHZ.png"
+        ],
+        "cones": ["H11", "H10", "H5", "H1"],
+        "relics": ["13", "17", "15"],
+        "planars": ["57"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки/Скорость",
+                "sphere": "Бонус мним. урона",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Blade",
+        "name": "Блэйд",
+        "rarity": "5",
+        "path": "Разрушение",
+        "type": "Ветряной",
+        "img": [
+            "https://i.imgur.com/WkOeIuT.png",
+            "https://i.imgur.com/CeWJQNB.png",
+            "https://i.imgur.com/FIJRCep.png"
+        ],
+        "cones": ["D10", "D9", "D6", "D3"],
+        "relics": ["09"],
+        "planars": ["58", "57"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "HP",
+                "sphere": "Бонус ветр. урона",
+                "rope": "HP"
+            }
+        ],
+        "addStats": "HP > Крит. шанс/Крит. урон > Сила атаки",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "SilverWolf",
@@ -471,9 +613,10 @@
         "type": "Квантовый",
         "img": [
             "https://i.imgur.com/rPxkN7m.png",
-            "https://i.imgur.com/NYd4i8E.png"
+            "https://i.imgur.com/NYd4i8E.png",
+            "https://i.imgur.com/rqvo72b.png"
         ],
-        "cones": ["502", "504", "506"],
+        "cones": ["N12", "N10", "N8"],
         "relics": ["05"],
         "planars": ["59"],
         "stats": [
@@ -484,30 +627,9 @@
                 "rope": "Скорость восст. энергии/Эффект пробития"
             }
         ],
-        "addStats": "Скорость > Эффект пробития > Шанс попадания эффектов"
-    },
-    {
-        "id": "Huohuo",
-        "name": "Хохо",
-        "rarity": "5",
-        "path": "Изобилие",
-        "type": "Ветряной",
-        "img": [
-            "https://i.imgur.com/w0lEJRT.png",
-            "https://i.imgur.com/KfeetnP.png"
-        ],
-        "cones": ["700", "702", "704", "706", "709"],
-        "relics": ["12", "09"],
-        "planars": ["51", "59"],
-        "stats": [
-            {
-                "body": "Бонус исцеления",
-                "boots": "Скорость",
-                "sphere": "HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "HP > Скорость > Сопротивление эффектам"
+        "addStats": "Скорость > Эффект пробития > Шанс попадания эффектов",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Seele",
@@ -517,9 +639,10 @@
         "type": "Квантовый",
         "img": [
             "https://i.imgur.com/tTPIX0K.png",
-            "https://i.imgur.com/yOCBTG2.png"
+            "https://i.imgur.com/yOCBTG2.png",
+            "https://i.imgur.com/xLSTrGp.png"
         ],
-        "cones": ["203", "205", "211", "207", "210"],
+        "cones": ["H9", "H7", "H1", "H5", "H2"],
         "relics": ["05"],
         "planars": ["55"],
         "stats": [
@@ -530,7 +653,9 @@
                 "rope": "Сила атаки"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Bailu",
@@ -540,9 +665,10 @@
         "type": "Электрический",
         "img": [
             "https://i.imgur.com/AAYy3h0.png",
-            "https://i.imgur.com/7znxOtL.png"
+            "https://i.imgur.com/7znxOtL.png",
+            "https://i.imgur.com/5QAmdZ8.png"
         ],
-        "cones": ["700", "702", "704", "706", "709"],
+        "cones": ["A10", "A8", "A6", "A4", "A1"],
         "relics": ["12", "09"],
         "planars": ["51", "59"],
         "stats": [
@@ -553,7 +679,9 @@
                 "rope": "Скорость восст. энергии"
             }
         ],
-        "addStats": "HP > Скорость > Сопротивление эффектам"
+        "addStats": "HP > Скорость > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Bronya",
@@ -563,9 +691,10 @@
         "type": "Ветряной",
         "img": [
             "https://i.imgur.com/cCusuPE.png",
-            "https://i.imgur.com/QwMRHHZ.png"
+            "https://i.imgur.com/QwMRHHZ.png",
+            "https://i.imgur.com/BiBmGRU.png"
         ],
-        "cones": ["301", "300", "304", "307", "408"],
+        "cones": ["", "", "", "", ""],
         "relics": ["10"],
         "planars": ["51", "59"],
         "stats": [
@@ -576,7 +705,9 @@
                 "rope": "Скорость восст. энергии"
             }
         ],
-        "addStats": "Скорость > Крит. шанс/Крит. урон > Эффект пробития"
+        "addStats": "Скорость > Крит. шанс/Крит. урон > Эффект пробития",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Himeko",
@@ -586,9 +717,10 @@
         "type": "Огненный",
         "img": [
             "https://i.imgur.com/MqVoCft.png",
-            "https://i.imgur.com/UhcrabL.png"
+            "https://i.imgur.com/UhcrabL.png",
+            "https://i.imgur.com/Ko3zQIq.png"
         ],
-        "cones": ["302", "303", "306", "307", "308"],
+        "cones": ["E10", "E9", "E6", "E5", "E4"],
         "relics": ["15", "04"],
         "planars": ["60", "57"],
         "stats": [
@@ -599,7 +731,9 @@
                 "rope": "Сила атаки/Скорость восст. энергии"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Gepard",
@@ -609,9 +743,10 @@
         "type": "Ледяной",
         "img": [
             "https://i.imgur.com/G6zegv8.png",
-            "https://i.imgur.com/dX823hm.png"
+            "https://i.imgur.com/dX823hm.png",
+            "https://i.imgur.com/ByJp5yG.png"
         ],
-        "cones": ["602", "609"],
+        "cones": ["P9", "P2"],
         "relics": ["08"],
         "planars": ["56", "59"],
         "stats": [
@@ -622,7 +757,9 @@
                 "rope": "Скорость восст. энергии"
             }
         ],
-        "addStats": "Защита > Скорость > Сопротивление эффектам"
+        "addStats": "Защита > Скорость > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Clara",
@@ -632,9 +769,10 @@
         "type": "Физический",
         "img": [
             "https://i.imgur.com/jeyHBl7.png",
-            "https://i.imgur.com/heyEHQr.png"
+            "https://i.imgur.com/heyEHQr.png",
+            "https://i.imgur.com/2DfgF2y.png"
         ],
-        "cones": ["102", "105", "106", "109"],
+        "cones": ["D12", "D9", "D8", "D5"],
         "relics": ["02", "09"],
         "planars": ["62", "57"],
         "stats": [
@@ -645,7 +783,9 @@
                 "rope": "Сила атаки"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Эффект пробития > Сопротивление эффектам"
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Эффект пробития > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Welt",
@@ -655,9 +795,10 @@
         "type": "Мнимый",
         "img": [
             "https://i.imgur.com/vl7YCqx.png",
-            "https://i.imgur.com/iP1yv51.png"
+            "https://i.imgur.com/iP1yv51.png",
+            "https://i.imgur.com/Oj6IXS4.png"
         ],
-        "cones": ["500", "502", "504", "513", "507"],
+        "cones": ["N14", "N12", "N10", "N1", "N7"],
         "relics": ["17", "13"],
         "planars": ["63", "60"],
         "stats": [
@@ -668,7 +809,9 @@
                 "rope": "Сила атаки/Скорость восст. энергии"
             }
         ],
-        "addStats": "Шанс попадания эффектов > Скорость > Крит. шанс/Крит. урон > Сила атаки"
+        "addStats": "Шанс попадания эффектов > Скорость > Крит. шанс/Крит. урон > Сила атаки",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Yanqing",
@@ -678,9 +821,10 @@
         "type": "Ледяной",
         "img": [
             "https://i.imgur.com/R73Ce4g.png",
-            "https://i.imgur.com/DJanjHu.png"
+            "https://i.imgur.com/DJanjHu.png",
+            "https://i.imgur.com/c8DsNGG.png"
         ],
-        "cones": ["204", "205", "210"],
+        "cones": ["H8", "H7", "H2"],
         "relics": ["11"],
         "planars": ["60"],
         "stats": [
@@ -691,7 +835,9 @@
                 "rope": "Сила атаки"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "TrailblazerHarmony",
@@ -701,9 +847,10 @@
         "type": "Мнимый",
         "img": [
             "https://i.imgur.com/61lHWll.png",
-            "https://i.imgur.com/A1pdKBl.png"
+            "https://i.imgur.com/A1pdKBl.png",
+            "https://i.imgur.com/pyaGQV1.png"
         ],
-        "cones": ["402", "403", "410", "408"],
+        "cones": ["G9", "G8", "G1", "G3"],
         "relics": ["18"],
         "planars": ["52"],
         "stats": [
@@ -714,7 +861,9 @@
                 "rope": "Эффект пробития"
             }
         ],
-        "addStats": "Эффект пробития > Скорость > HP > Защита"
+        "addStats": "Эффект пробития > Скорость > HP > Защита",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "TrailblazerPreservation",
@@ -724,9 +873,10 @@
         "type": "Огненный",
         "img": [
             "https://i.imgur.com/WTJT6ja.png",
-            "https://i.imgur.com/OsUkhqe.png"
+            "https://i.imgur.com/OsUkhqe.png",
+            "https://i.imgur.com/pyaGQV1.png"
         ],
-        "cones": ["602", "603", "610"],
+        "cones": ["P9", "P8", "P1"],
         "relics": ["08"],
         "planars": ["56"],
         "stats": [
@@ -737,7 +887,9 @@
                 "rope": "Защита"
             }
         ],
-        "addStats": "Скорость > Защита > Эффект пробития"
+        "addStats": "Скорость > Защита > Эффект пробития",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "TrailblazerDestruction",
@@ -747,9 +899,10 @@
         "type": "Физический",
         "img": [
             "https://i.imgur.com/b9YS6MG.png",
-            "https://i.imgur.com/hqxVAuo.png"
+            "https://i.imgur.com/hqxVAuo.png",
+            "https://i.imgur.com/pyaGQV1.png"
         ],
-        "cones": ["106", "105", "107"],
+        "cones": ["D8", "D9", "D7"],
         "relics": ["02"],
         "planars": ["50"],
         "stats": [
@@ -760,375 +913,35 @@
                 "rope": "Сила атаки"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
     },
     {
-        "id": "Gallagher",
-        "name": "Галлахер",
+        "id": "Moze",
+        "name": "Моцзэ",
         "rarity": "4",
-        "path": "Изобилие",
-        "type": "Огненный",
+        "path": "Охота",
+        "type": "Электрический",
         "img": [
-            "https://i.imgur.com/wnQOSLg.png",
-            "https://i.imgur.com/b73iDfv.png"
+            "https://i.imgur.com/7kdOaxY.png",
+            "",
+            "https://i.imgur.com/GZlIeje.png"
         ],
-        "cones": ["700", "703", "709"],
-        "relics": ["16", "12"],
-        "planars": ["59", "64"],
-        "stats": [
-            {
-                "body": "Бонус исцеления",
-                "boots": "Скорость",
-                "sphere": "HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Скорость/Эффект пробития > HP/Защита"
-    },
-    {
-        "id": "Misha",
-        "name": "Миша",
-        "rarity": "4",
-        "path": "Разрушение",
-        "type": "Ледяной",
-        "img": [
-            "https://i.imgur.com/9baX0a2.png",
-            "https://i.imgur.com/cfduLPt.png"
-        ],
-        "cones": ["106", "108"],
-        "relics": ["07"],
-        "planars": ["57"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки/Скорость",
-                "sphere": "Бонус лед. урона",
-                "rope": "Эффект пробития"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
-    },
-    {
-        "id": "Xueyi",
-        "name": "Сюэи",
-        "rarity": "4",
-        "path": "Разрушение",
-        "type": "Квантовый",
-        "img": [
-            "https://i.imgur.com/SmJPstH.png",
-            "https://i.imgur.com/K7yzn50.png"
-        ],
-        "cones": ["106", "109"],
-        "relics": ["05"],
-        "planars": ["57"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки/Скорость",
-                "sphere": "Сила атаки",
-                "rope": "Эффект пробития"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Эффект пробития > Скорость"
-    },
-    {
-        "id": "Pela",
-        "name": "Пела",
-        "rarity": "4",
-        "path": "Небытие",
-        "type": "Ледяной",
-        "img": [
-            "https://i.imgur.com/KLBYtFZ.png",
-            "https://i.imgur.com/ue3ObOb.png"
-        ],
-        "cones": ["502", "504", "511", "506"],
-        "relics": ["10", "06"],
-        "planars": ["59", "61"],
-        "stats": [
-            {
-                "body": "Шанс попадания эффектов",
-                "boots": "Скорость",
-                "sphere": "Сила атаки/HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Шанс попадания эффектов > Скорость > Сила атаки"
-    },
-    {
-        "id": "Luka",
-        "name": "Лука",
-        "rarity": "4",
-        "path": "Небытие",
-        "type": "Физический",
-        "img": [
-            "https://i.imgur.com/ivnA8SZ.png",
-            "https://i.imgur.com/SjNxeen.png"
-        ],
-        "cones": ["505", "504", "511", "508"],
-        "relics": ["14"],
-        "planars": ["52"],
-        "stats": [
-            {
-                "body": "Сила атаки",
-                "boots": "Скорость",
-                "sphere": "Бонус физ. урона",
-                "rope": "Эффект пробития"
-            }
-        ],
-        "addStats": "Эффект пробития > Скорость > Сила атаки"
-    },
-    {
-        "id": "Hook",
-        "name": "Хук",
-        "rarity": "4",
-        "path": "Разрушение",
-        "type": "Огненный",
-        "img": [
-            "https://i.imgur.com/8FPtfhP.png",
-            "https://i.imgur.com/IYqrUqi.png"
-        ],
-        "cones": ["106", "107", "110"],
-        "relics": ["04"],
-        "planars": ["58"],
+        "cones": ["", "", "", "", ""],
+        "relics": [""],
+        "planars": ["", ""],
         "stats": [
             {
                 "body": "Крит. шанс/Крит. урон",
                 "boots": "Сила атаки",
-                "sphere": "Бонус огн. урона",
-                "rope": "Сила атаки"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
-    },
-    {
-        "id": "March7th(Hunt)",
-        "name": "Март 7",
-        "rarity": "4",
-        "path": "Охота",
-        "type": "Мнимый",
-        "img": [
-            "https://i.imgur.com/U0swUQu.png",
-            "https://i.imgur.com/9CLFt3D.png"
-        ],
-        "cones": ["100", "100", "100", "100"],
-        "relics": ["01"],
-        "planars": ["01", "01"],
-        "stats": [
-            {
-                "body": "0",
-                "boots": "0",
-                "sphere": "0",
-                "rope": "0"
-            }
-        ],
-        "addStats": "0"
-    },
-    {
-        "id": "March7th(Preservation)",
-        "name": "Март 7",
-        "rarity": "4",
-        "path": "Сохранение",
-        "type": "Ледяной",
-        "img": [
-            "https://i.imgur.com/DUYq3cg.png",
-            "https://i.imgur.com/mxyT3mT.png"
-        ],
-        "cones": ["600", "602", "609", "608"],
-        "relics": ["08"],
-        "planars": ["56", "59"],
-        "stats": [
-            {
-                "body": "Защита",
-                "boots": "Защита",
-                "sphere": "Защита",
-                "rope": "Защита"
-            }
-        ],
-        "addStats": "Защита > Сопротивление эффектам"
-    },
-    {
-        "id": "Hanya",
-        "name": "Ханья",
-        "rarity": "4",
-        "path": "Гармония",
-        "type": "Физический",
-        "img": [
-            "https://i.imgur.com/tcVRckF.png",
-            "https://i.imgur.com/m4ob1uU.png"
-        ],
-        "cones": ["503", "508", "506"],
-        "relics": ["06", "10"],
-        "planars": ["59", "61"],
-        "stats": [
-            {
-                "body": "Защита",
-                "boots": "Скорость",
-                "sphere": "HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Скорость > Сопротивление эффектам"
-    },
-    {
-        "id": "Lynx",
-        "name": "Рысь",
-        "rarity": "4",
-        "path": "Изобилие",
-        "type": "Квантовый",
-        "img": [
-            "https://i.imgur.com/hyqh0NA.png",
-            "https://i.imgur.com/QgACP71.png"
-        ],
-        "cones": ["700", "703", "709"],
-        "relics": ["12"],
-        "planars": ["51", "59"],
-        "stats": [
-            {
-                "body": "Бонус исцеления",
-                "boots": "Скорость",
-                "sphere": "HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "HP > Скорость"
-    },
-    {
-        "id": "Serval",
-        "name": "Сервал",
-        "rarity": "4",
-        "path": "Эрудиция",
-        "type": "Электрический",
-        "img": [
-            "https://i.imgur.com/DuZHkjM.png",
-            "https://i.imgur.com/Z8KJbsv.png"
-        ],
-        "cones": ["303", "302", "304", "306"],
-        "relics": ["01"],
-        "planars": ["50"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки/Скорость",
-                "sphere": "Бонус элек. урона",
-                "rope": "Сила атаки/Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
-    },
-    {
-        "id": "DanHeng",
-        "name": "Дань Хэн",
-        "rarity": "4",
-        "path": "Охота",
-        "type": "Ветряной",
-        "img": [
-            "https://i.imgur.com/GeLZb9X.png",
-            "https://i.imgur.com/FDmTjOY.png"
-        ],
-        "cones": ["203", "201", "210"],
-        "relics": ["11"],
-        "planars": ["50"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки/Скорость",
                 "sphere": "Бонус элек. урона",
                 "rope": "Сила атаки"
             }
         ],
-        "addStats": "Скорость > Крит. шанс/Крит. урон > Сила атаки"
-    },
-    {
-        "id": "Sampo",
-        "name": "Сампо",
-        "rarity": "4",
-        "path": "Небытие",
-        "type": "Ветряной",
-        "img": [
-            "https://i.imgur.com/bQAkE0X.png",
-            "https://i.imgur.com/KguJoPU.png"
-        ],
-        "cones": ["504", "512", "510"],
-        "relics": ["14", "03"],
-        "planars": ["54", "60"],
-        "stats": [
-            {
-                "body": "Шанс попадания эффектов",
-                "boots": "Сила атаки/Скорость",
-                "sphere": "Сила атаки",
-                "rope": "Сила атаки/Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Шанс попадания эффектов > Сила атаки > Скорость"
-    },
-    {
-        "id": "Qingque",
-        "name": "Цинцюэ",
-        "rarity": "4",
-        "path": "Эрудиция",
-        "type": "Квантовый",
-        "img": [
-            "https://i.imgur.com/lkb0jZ7.png",
-            "https://i.imgur.com/TB4GOXi.png"
-        ],
-        "cones": ["302", "305", "307"],
-        "relics": ["05", "11"],
-        "planars": ["58"],
-        "stats": [
-            {
-                "body": "Крит. шанс/Крит. урон",
-                "boots": "Сила атаки",
-                "sphere": "Бонус квант. урона",
-                "rope": "Сила атаки"
-            }
-        ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
-    },
-    {
-        "id": "Tingyun",
-        "name": "Тинъюнь",
-        "rarity": "4",
-        "path": "Гармония",
-        "type": "Электрический",
-        "img": [
-            "https://i.imgur.com/6yDPkxU.png",
-            "https://i.imgur.com/idtwGyZ.png"
-        ],
-        "cones": ["403", "406", "409"],
-        "relics": ["10"],
-        "planars": ["59", "61"],
-        "stats": [
-            {
-                "body": "HP",
-                "boots": "Скорость",
-                "sphere": "HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "Скорость > HP > Сила атаки"
-    },
-    {
-        "id": "Natasha",
-        "name": "Наташа",
-        "rarity": "4",
-        "path": "Изобилие",
-        "type": "Физический",
-        "img": [
-            "https://i.imgur.com/6PJOUMk.png",
-            "https://i.imgur.com/77xgtQn.png"
-        ],
-        "cones": ["702", "708", "709", "704"],
-        "relics": ["12"],
-        "planars": ["51"],
-        "stats": [
-            {
-                "body": "Сила атаки",
-                "boots": "Скорость",
-                "sphere": "HP",
-                "rope": "Скорость восст. энергии"
-            }
-        ],
-        "addStats": "HP > Скорость > Сопротивление эффектам"
+        "addStats": "Крит. шанс/Крит. урон > Скорость > Сила атаки",
+        "isNew": true,
+        "rerun": false
     },
     {
         "id": "Asta",
@@ -1138,9 +951,10 @@
         "type": "Огненный",
         "img": [
             "https://i.imgur.com/Q9ileho.png",
-            "https://i.imgur.com/9xkbj38.png"
+            "https://i.imgur.com/9xkbj38.png",
+            "https://i.imgur.com/wcfOkhS.png"
         ],
-        "cones": ["408", "409", "406", "410"],
+        "cones": ["G3", "G2", "G5", "G1"],
         "relics": ["10", "16"],
         "planars": ["52", "61"],
         "stats": [
@@ -1151,7 +965,87 @@
                 "rope": "Скорость восст. энергии/Эффект пробития"
             }
         ],
-        "addStats": "Скорость > HP > Эффект пробития"
+        "addStats": "Скорость > HP > Эффект пробития",
+        "isNew": false,
+        "rerun": true
+    },
+    {
+        "id": "Luka",
+        "name": "Лука",
+        "rarity": "4",
+        "path": "Небытие",
+        "type": "Физический",
+        "img": [
+            "https://i.imgur.com/ivnA8SZ.png",
+            "https://i.imgur.com/SjNxeen.png",
+            "https://i.imgur.com/KfBKILI.png"
+        ],
+        "cones": ["N9", "N10", "N3", "N6"],
+        "relics": ["14"],
+        "planars": ["52"],
+        "stats": [
+            {
+                "body": "Сила атаки",
+                "boots": "Скорость",
+                "sphere": "Бонус физ. урона",
+                "rope": "Эффект пробития"
+            }
+        ],
+        "addStats": "Эффект пробития > Скорость > Сила атаки",
+        "isNew": false,
+        "rerun": true
+    },
+    {
+        "id": "Guinaifen",
+        "name": "Гуйнайфэнь",
+        "rarity": "4",
+        "path": "Небытие",
+        "type": "Огненный",
+        "img": [
+            "https://i.imgur.com/Q9ileho.png",
+            "https://i.imgur.com/9xkbj38.png",
+            "https://i.imgur.com/wcfOkhS.png"
+        ],
+        "cones": ["", "", "", ""],
+        "relics": ["", ""],
+        "planars": ["", ""],
+        "stats": [
+            {
+                "body": "HP",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии/Эффект пробития"
+            }
+        ],
+        "addStats": "Скорость > HP > Эффект пробития",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Hook",
+        "name": "Хук",
+        "rarity": "4",
+        "path": "Разрушение",
+        "type": "Огненный",
+        "img": [
+            "https://i.imgur.com/8FPtfhP.png",
+            "https://i.imgur.com/IYqrUqi.png",
+            "https://i.imgur.com/hIAMtm0.png"
+        ],
+        "cones": ["D8", "D7", "D4"],
+        "relics": ["04"],
+        "planars": ["58"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки",
+                "sphere": "Бонус огн. урона",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Arlan",
@@ -1161,9 +1055,10 @@
         "type": "Электрический",
         "img": [
             "https://i.imgur.com/8vbNtVa.png",
-            "https://i.imgur.com/7DcMCAE.png"
+            "https://i.imgur.com/7DcMCAE.png",
+            "https://i.imgur.com/fmGHaep.png"
         ],
-        "cones": ["104", "105", "106", "108", "107", "109"],
+        "cones": ["D10", "D9", "D8", "D6", "D7", "D5"],
         "relics": ["01", "09"],
         "planars": ["50", "58"],
         "stats": [
@@ -1174,7 +1069,36 @@
                 "rope": "Сила атаки"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "March7th(Hunt)",
+        "name": "Март 7",
+        "rarity": "4",
+        "path": "Охота",
+        "type": "Мнимый",
+        "img": [
+            "https://i.imgur.com/U0swUQu.png",
+            "https://i.imgur.com/9CLFt3D.png",
+            ""
+        ],
+        "cones": ["H13", "H10", "H11", "H2", "H8"],
+        "relics": ["17", "11", "13"],
+        "planars": ["63", "58"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки",
+                "sphere": "Бонус квант. урона/Сила атаки",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "additionally": "Первооткрыватель будет лучше Стрелка, но только в отряди с Пелой",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Yukong",
@@ -1184,9 +1108,10 @@
         "type": "Мнимый",
         "img": [
             "https://i.imgur.com/qfUuLPP.png",
-            "https://i.imgur.com/SYviuWb.png"
+            "https://i.imgur.com/SYviuWb.png",
+            "https://i.imgur.com/jdyZy8q.png"
         ],
-        "cones": ["403", "406", "409"],
+        "cones": ["G8", "G5", "G2"],
         "relics": ["11"],
         "planars": ["59", "51", "61"],
         "stats": [
@@ -1197,7 +1122,347 @@
                 "rope": "Скорость восст. энергии"
             }
         ],
-        "addStats": "Скорость > Сила атаки > Крит. шанс/Крит. урон"
+        "addStats": "Скорость > Сила атаки > Крит. шанс/Крит. урон",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Hanya",
+        "name": "Ханья",
+        "rarity": "4",
+        "path": "Гармония",
+        "type": "Физический",
+        "img": [
+            "https://i.imgur.com/tcVRckF.png",
+            "https://i.imgur.com/m4ob1uU.png",
+            "https://i.imgur.com/Fmp5fPQ.png"
+        ],
+        "cones": ["", "", ""],
+        "relics": ["06", "10"],
+        "planars": ["59", "61"],
+        "stats": [
+            {
+                "body": "Защита",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Скорость > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Lynx",
+        "name": "Рысь",
+        "rarity": "4",
+        "path": "Изобилие",
+        "type": "Квантовый",
+        "img": [
+            "https://i.imgur.com/hyqh0NA.png",
+            "https://i.imgur.com/QgACP71.png",
+            "https://i.imgur.com/u7h28fz.png"
+        ],
+        "cones": ["A10", "A7", "A1"],
+        "relics": ["12"],
+        "planars": ["51", "59"],
+        "stats": [
+            {
+                "body": "Бонус исцеления",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "HP > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Natasha",
+        "name": "Наташа",
+        "rarity": "4",
+        "path": "Изобилие",
+        "type": "Физический",
+        "img": [
+            "https://i.imgur.com/6PJOUMk.png",
+            "https://i.imgur.com/77xgtQn.png",
+            "https://i.imgur.com/cOenZoK.png"
+        ],
+        "cones": ["A8", "A2", "A1", "A6"],
+        "relics": ["12"],
+        "planars": ["51"],
+        "stats": [
+            {
+                "body": "Сила атаки",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "HP > Скорость > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Serval",
+        "name": "Сервал",
+        "rarity": "4",
+        "path": "Эрудиция",
+        "type": "Электрический",
+        "img": [
+            "https://i.imgur.com/DuZHkjM.png",
+            "https://i.imgur.com/Z8KJbsv.png",
+            "https://i.imgur.com/aOBw7vZ.png"
+        ],
+        "cones": ["E9", "E10", "E8", "E6"],
+        "relics": ["01"],
+        "planars": ["50"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки/Скорость",
+                "sphere": "Бонус элек. урона",
+                "rope": "Сила атаки/Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Gallagher",
+        "name": "Галлахер",
+        "rarity": "4",
+        "path": "Изобилие",
+        "type": "Огненный",
+        "img": [
+            "https://i.imgur.com/wnQOSLg.png",
+            "https://i.imgur.com/b73iDfv.png",
+            "https://i.imgur.com/hVIvHNd.png"
+        ],
+        "cones": ["A10", "A7", "A1"],
+        "relics": ["16", "12"],
+        "planars": ["59", "64"],
+        "stats": [
+            {
+                "body": "Бонус исцеления",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Скорость/Эффект пробития > HP/Защита",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Misha",
+        "name": "Миша",
+        "rarity": "4",
+        "path": "Разрушение",
+        "type": "Ледяной",
+        "img": [
+            "https://i.imgur.com/9baX0a2.png",
+            "https://i.imgur.com/cfduLPt.png",
+            "https://i.imgur.com/GRZyTJS.png"
+        ],
+        "cones": ["D8", "D6"],
+        "relics": ["07"],
+        "planars": ["57"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки/Скорость",
+                "sphere": "Бонус лед. урона",
+                "rope": "Эффект пробития"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Xueyi",
+        "name": "Сюэи",
+        "rarity": "4",
+        "path": "Разрушение",
+        "type": "Квантовый",
+        "img": [
+            "https://i.imgur.com/SmJPstH.png",
+            "https://i.imgur.com/K7yzn50.png",
+            "https://i.imgur.com/mkUQy0P.png"
+        ],
+        "cones": ["D8", "D5"],
+        "relics": ["05"],
+        "planars": ["57"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки/Скорость",
+                "sphere": "Сила атаки",
+                "rope": "Эффект пробития"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Эффект пробития > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Pela",
+        "name": "Пела",
+        "rarity": "4",
+        "path": "Небытие",
+        "type": "Ледяной",
+        "img": [
+            "https://i.imgur.com/KLBYtFZ.png",
+            "https://i.imgur.com/ue3ObOb.png",
+            "https://i.imgur.com/h7T8iJ3.png"
+        ],
+        "cones": ["N12", "N10", "N3", "N8"],
+        "relics": ["10", "06"],
+        "planars": ["67", "59"],
+        "stats": [
+            {
+                "body": "Шанс попадания эффектов",
+                "boots": "Скорость",
+                "sphere": "Сила атаки/HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Шанс попадания эффектов > Скорость > Сила атаки",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "March7th(Preservation)",
+        "name": "Март 7",
+        "rarity": "4",
+        "path": "Сохранение",
+        "type": "Ледяной",
+        "img": [
+            "https://i.imgur.com/DUYq3cg.png",
+            "https://i.imgur.com/mxyT3mT.png",
+            "https://i.imgur.com/kTtUQ29.png"
+        ],
+        "cones": ["P11", "P9", "P2", "P3"],
+        "relics": ["08"],
+        "planars": ["56", "59"],
+        "stats": [
+            {
+                "body": "Защита",
+                "boots": "Защита",
+                "sphere": "Защита",
+                "rope": "Защита"
+            }
+        ],
+        "addStats": "Защита > Сопротивление эффектам",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "DanHeng",
+        "name": "Дань Хэн",
+        "rarity": "4",
+        "path": "Охота",
+        "type": "Ветряной",
+        "img": [
+            "https://i.imgur.com/GeLZb9X.png",
+            "https://i.imgur.com/FDmTjOY.png",
+            "https://i.imgur.com/UE5zORh.png"
+        ],
+        "cones": ["H9", "H11", "H2"],
+        "relics": ["11"],
+        "planars": ["50"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки/Скорость",
+                "sphere": "Бонус элек. урона",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Скорость > Крит. шанс/Крит. урон > Сила атаки",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Sampo",
+        "name": "Сампо",
+        "rarity": "4",
+        "path": "Небытие",
+        "type": "Ветряной",
+        "img": [
+            "https://i.imgur.com/bQAkE0X.png",
+            "https://i.imgur.com/KguJoPU.png",
+            "https://i.imgur.com/iLd3K5l.png"
+        ],
+        "cones": ["N10", "N2", "N4"],
+        "relics": ["14", "03"],
+        "planars": ["54", "60"],
+        "stats": [
+            {
+                "body": "Шанс попадания эффектов",
+                "boots": "Сила атаки/Скорость",
+                "sphere": "Сила атаки",
+                "rope": "Сила атаки/Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Шанс попадания эффектов > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Qingque",
+        "name": "Цинцюэ",
+        "rarity": "4",
+        "path": "Эрудиция",
+        "type": "Квантовый",
+        "img": [
+            "https://i.imgur.com/lkb0jZ7.png",
+            "https://i.imgur.com/TB4GOXi.png",
+            "https://i.imgur.com/8xYZ5Lz.png"
+        ],
+        "cones": ["E10", "E7", "E5"],
+        "relics": ["05", "11"],
+        "planars": ["58"],
+        "stats": [
+            {
+                "body": "Крит. шанс/Крит. урон",
+                "boots": "Сила атаки",
+                "sphere": "Бонус квант. урона",
+                "rope": "Сила атаки"
+            }
+        ],
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
+    },
+    {
+        "id": "Tingyun",
+        "name": "Тинъюнь",
+        "rarity": "4",
+        "path": "Гармония",
+        "type": "Электрический",
+        "img": [
+            "https://i.imgur.com/6yDPkxU.png",
+            "https://i.imgur.com/idtwGyZ.png",
+            "https://i.imgur.com/eRbkTIO.png"
+        ],
+        "cones": ["G8", "G5", "G2"],
+        "relics": ["10"],
+        "planars": ["67", "59", "61"],
+        "stats": [
+            {
+                "body": "HP",
+                "boots": "Скорость",
+                "sphere": "HP",
+                "rope": "Скорость восст. энергии"
+            }
+        ],
+        "addStats": "Скорость > HP > Сила атаки",
+        "isNew": false,
+        "rerun": false
     },
     {
         "id": "Herta",
@@ -1207,9 +1472,10 @@
         "type": "Ледяной",
         "img": [
             "https://i.imgur.com/New6vJJ.png",
-            "https://i.imgur.com/4QmS2b0.png"
+            "https://i.imgur.com/4QmS2b0.png",
+            "https://i.imgur.com/FSvbSD2.png"
         ],
-        "cones": ["303", "308", "304"],
+        "cones": ["E9", "E4", "E8"],
         "relics": ["15", "06"],
         "planars": ["57", "62", "60"],
         "stats": [
@@ -1220,6 +1486,8 @@
                 "rope": "Сила атаки"
             }
         ],
-        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость"
+        "addStats": "Крит. шанс/Крит. урон > Сила атаки > Скорость",
+        "isNew": false,
+        "rerun": false
     }
 ]
