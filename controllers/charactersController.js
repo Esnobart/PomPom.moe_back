@@ -1,4 +1,4 @@
-import { getCharacters, getCharacter, getNewStatus } from "../sevices/charactersService.js";
+import { getCharacters, getCharacter, getNewStatus } from "../services/charactersService.js";
 
 export const getAllChars = async (req, res, next) => {
     try {

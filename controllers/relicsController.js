@@ -1,4 +1,4 @@
-import { getRelics, getRelic } from "../sevices/relicsServices.js";
+import { getRelics, getRelic } from "../services/relicsServices.js";
 
 export const getAllRelics = async (req, res, next) => {
     try {

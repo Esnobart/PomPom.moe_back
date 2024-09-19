@@ -1,4 +1,4 @@
-import { getPlanars, getPlanar } from "../sevices/planarsService.js";
+import { getPlanars, getPlanar } from "../services/planarsService.js";
 
 export const getAllPlanars = async (req, res, next) => {
     try {
