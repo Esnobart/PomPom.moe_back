@@ -3,11 +3,25 @@ import { HSRplanars } from "../models/planarsModel.js";
 
 async function getPlanars() {
     try {
-        const list = await HSRplanars.find().catch(err => {
+        const planars = await HSRplanars.find().catch(err => {
             console.error(err)
             return null
         });
-        return list
+        const relicsWithChars = await Promise.all(planars.map(async (planar) => {
+            const chars = await HSRchar.find({ planars: planar.id }).catch(err => {
+                console.error(err);
+                return [];
+            });
+            const charsInfo = chars.map(char => ({
+                id: char.id,
+                img: char.img
+            }));
+            return {
+                ...planar._doc,
+                chars: charsInfo
+            };
+        }));
+        return relicsWithChars
     } catch (err) {
         console.error(err.message);
         return null

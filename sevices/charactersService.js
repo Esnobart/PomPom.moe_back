@@ -18,6 +18,7 @@ async function getCharacters() {
 
 async function getCharacter(id) {
     try {
+        console.log('Searching for character with id:', id);
         const char = await HSRchar.findOne({ id: id }).catch(err => {
             console.error(err);
             return null;

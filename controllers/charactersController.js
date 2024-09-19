@@ -11,6 +11,7 @@ export const getAllChars = async (req, res, next) => {
 
 export const getCharacterById = async (req, res, next) => {
     try {
+        console.log(req.params.id)
         const character = await getCharacter(req.params.id);
         res.status(200).send(character)
     } catch (err) {
