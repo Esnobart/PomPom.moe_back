@@ -2,6 +2,7 @@
     {
         "id": "H10",
         "name": "Тревога и блаженство",
+        "rarity": "5",
         "path": "Охота",
         "img": ["https://i.imgur.com/QB7a3S2.png", "https://i.imgur.com/HSirM0g.png"],
         "HP": "1058",
@@ -13,6 +14,7 @@
     {
         "id": "H13",
         "name": "Я отправляюсь на охоту",
+        "rarity": "5",
         "path": "Охота",
         "img": ["https://i.imgur.com/G9IitnI.png", "https://i.imgur.com/NbBHjYY.png"],
         "HP": "948",
@@ -24,6 +26,7 @@
     {
         "id": "G11",
         "name": "Мимолётные ночные огни",
+        "rarity": "5",
         "path": "Гармония",
         "img": ["https://i.imgur.com/bXlBQ0D.png", "https://i.imgur.com/N78GiNY.png"],
         "HP": "952",
@@ -35,6 +38,7 @@
     {
         "id": "N13",
         "name": "Изменённые воспоминания",
+        "rarity": "5",
         "path": "Небытие",
         "img": ["https://i.imgur.com/mKkWwoS.png", "https://i.imgur.com/Is4sedv.png"],
         "HP": "1058",
@@ -46,6 +50,7 @@
     {
         "id": "N11",
         "name": "Просто надо подождать",
+        "rarity": "5",
         "path": "Небытие",
         "img": ["https://i.imgur.com/gJbKVdG.png", "https://i.imgur.com/8iXGg7E.png"],
         "HP": "1058",
@@ -57,6 +62,7 @@
     {
         "id": "N15",
         "name": "Бесчисленные весенние дни",
+        "rarity": "5",
         "path": "Небытие",
         "img": ["https://i.imgur.com/wW00T6D.png", "https://i.imgur.com/Llq7Hoy.png"],
         "HP": "948",
@@ -68,6 +74,7 @@
     {
         "id": "G10",
         "name": "Мирские шалости",
+        "rarity": "5",
         "path": "Гармония",
         "img": ["https://i.imgur.com/M0il451.png", "https://i.imgur.com/WQQ8xpE.png"],
         "HP": "1164",
@@ -79,6 +86,7 @@
     {
         "id": "D14",
         "name": "Танец на закате",
+        "rarity": "5",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/1N2hcrD.png", "https://i.imgur.com/jUlz951.png"],
         "HP": "1058",
@@ -90,6 +98,7 @@
     {
         "id": "A10",
         "name": "Ночь страха",
+        "rarity": "5",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/T5RP8G1.png", "https://i.imgur.com/DchpPOc.png"],
         "HP": "1164",
@@ -101,8 +110,9 @@
     {
         "id": "E12",
         "name": "Но надежда бесценна",
+        "rarity": "5",
         "path": "Эрудиция",
-        "img": ["https://i.imgur.com/s4BO8Ga.png", "https://i.imgur.com/YziaAD9.png"],
+        "img": ["https://i.imgur.com/G4XZEHO.png", "https://i.imgur.com/YziaAD9.png"],
         "HP": "952",
         "ATK": "582",
         "DEF": "529",
@@ -112,6 +122,7 @@
     {
         "id": "E11",
         "name": "Остановись, мгновенье",
+        "rarity": "5",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/q7a7SMn.png", "https://i.imgur.com/EoFjrqV.png"],
         "HP": "1058",
@@ -123,8 +134,9 @@
     {
         "id": "D13",
         "name": "Куда возвращаются сны",
+        "rarity": "5",
         "path": "Разрушение",
-        "img": ["https://i.imgur.com/Kd6MEND.png", "https://i.imgur.com/JM2XxZ0.png"],
+        "img": ["https://i.imgur.com/4xXwn6d.png", "https://i.imgur.com/JM2XxZ0.png"],
         "HP": "1164",
         "ATK": "476",
         "DEF": "529",
@@ -134,6 +146,7 @@
     {
         "id": "G9",
         "name": "Отражение прошлой меня",
+        "rarity": "5",
         "path": "Гармония",
         "img": ["https://i.imgur.com/FxSdBV5.png", "https://i.imgur.com/KY4KuEs.png"],
         "HP": "1058",
@@ -145,6 +158,7 @@
     {
         "id": "H12",
         "name": "Отплытие ко второй жизни",
+        "rarity": "5",
         "path": "Охота",
         "img": ["https://i.imgur.com/VI6yRoe.png", "https://i.imgur.com/OOpKNSV.png"],
         "HP": "1058",
@@ -156,6 +170,7 @@
     {
         "id": "P10",
         "name": "Она закрыла глаза",
+        "rarity": "5",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/xjO2939.png", "https://i.imgur.com/NYiWBYw.png"],
         "HP": "1270",
@@ -167,6 +182,7 @@
     {
         "id": "P11",
         "name": "Несправедливая судьба",
+        "rarity": "5",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/KDs4puw.png", "https://i.imgur.com/Duj7UOt.png"],
         "HP": "1058",
@@ -178,6 +194,7 @@
     {
         "id": "D11",
         "name": "Отныне я сама буду мечом",
+        "rarity": "5",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/BfiwxvV.png", "https://i.imgur.com/mSuYe2O.png"],
         "HP": "1164",
@@ -189,6 +206,7 @@
     {
         "id": "N14",
         "name": "Вдоль уходящего берега",
+        "rarity": "5",
         "path": "Небытие",
         "img": ["https://i.imgur.com/I53zFto.png", "https://i.imgur.com/HSwZSSg.png"],
         "HP": "1058",
@@ -200,6 +218,7 @@
     {
         "id": "A9",
         "name": "Эхо из гроба",
+        "rarity": "5",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/0TB6pvm.png", "https://i.imgur.com/shHtjDo.png"],
         "HP": "1164",
@@ -211,6 +230,7 @@
     {
         "id": "E10",
         "name": "До рассвета",
+        "rarity": "5",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/rtbP2cG.png", "https://i.imgur.com/6sPpkR9.png"],
         "HP": "1058",
@@ -222,6 +242,7 @@
     {
         "id": "D12",
         "name": "Ярче солнца",
+        "rarity": "5",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/U3RD2q0.png", "https://i.imgur.com/p5ti9Vm.png"],
         "HP": "1058",
@@ -233,6 +254,7 @@
     {
         "id": "H11",
         "name": "Крещение чистой мысли",
+        "rarity": "5",
         "path": "Охота",
         "img": ["https://i.imgur.com/oV325Fk.png", "https://i.imgur.com/wAEBTB8.png"],
         "HP": "952",
@@ -244,6 +266,7 @@
     {
         "id": "D10",
         "name": "Недоступная сторона",
+        "rarity": "5",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/q73u9Af.png", "https://i.imgur.com/phdyRzX.png"],
         "HP": "1270",
@@ -255,6 +278,7 @@
     {
         "id": "N12",
         "name": "Непрекращающийся дождь",
+        "rarity": "5",
         "path": "Небытие",
         "img": ["https://i.imgur.com/5PWbOJY.png", "https://i.imgur.com/OgWniw6.png"],
         "HP": "1058",
@@ -266,6 +290,7 @@
     {
         "id": "H9",
         "name": "В ночи",
+        "rarity": "5",
         "path": "Охота",
         "img": ["https://i.imgur.com/FmH4uNs.png", "https://i.imgur.com/XR5VhL3.png"],
         "HP": "1058",
@@ -277,6 +302,7 @@
     {
         "id": "D9",
         "name": "Что-то незаменимое",
+        "rarity": "5",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/7jgj92M.png", "https://i.imgur.com/yUoidTR.png"],
         "HP": "1164",
@@ -288,6 +314,7 @@
     {
         "id": "H8",
         "name": "Мертвецкий сон",
+        "rarity": "5",
         "path": "Охота",
         "img": ["https://i.imgur.com/WC6UlFu.png", "https://i.imgur.com/bYYqptV.png"],
         "HP": "1058",
@@ -299,6 +326,7 @@
     {
         "id": "E9",
         "name": "Ночь на Млечном Пути",
+        "rarity": "5",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/CCQZ01J.png", "https://i.imgur.com/AeheKGM.png"],
         "HP": "1164",
@@ -310,6 +338,7 @@
     {
         "id": "G8",
         "name": "Битва не окончена",
+        "rarity": "5",
         "path": "Гармония",
         "img": ["https://i.imgur.com/PzwMmyZ.png", "https://i.imgur.com/tFCXqG1.png"],
         "HP": "1164",
@@ -321,6 +350,7 @@
     {
         "id": "N10",
         "name": "Во имя мира",
+        "rarity": "5",
         "path": "Небытие",
         "img": ["https://i.imgur.com/xUoqoZ3.png", "https://i.imgur.com/1OTK1iR.png"],
         "HP": "1058",
@@ -332,6 +362,7 @@
     {
         "id": "P9",
         "name": "Момент победы",
+        "rarity": "5",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/qH9C91M.png", "https://i.imgur.com/uigf1Bg.png"],
         "HP": "1058",
@@ -343,6 +374,7 @@
     {
         "id": "A8",
         "name": "Время никого не ждёт",
+        "rarity": "5",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/abaPUOL.png", "https://i.imgur.com/bHlHnky.png"],
         "HP": "1270",
@@ -354,6 +386,7 @@
     {
         "id": "D8",
         "name": "О падении Эона",
+        "rarity": "5",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/oGx1aiT.png", "https://i.imgur.com/fpVP6VQ.png"],
         "HP": "1058",
@@ -365,6 +398,7 @@
     {
         "id": "H7",
         "name": "Круиз по галактике",
+        "rarity": "5",
         "path": "Охота",
         "img": ["https://i.imgur.com/kCY7WKg.png", "https://i.imgur.com/VioaKVE.png"],
         "HP": "952",
@@ -376,6 +410,7 @@
     {
         "id": "E8",
         "name": "Беспрерывные вычисления",
+        "rarity": "5",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/wV5WN78.png", "https://i.imgur.com/x1TySMb.png"],
         "HP": "1058",
@@ -387,6 +422,7 @@
     {
         "id": "N9",
         "name": "Одинокое исцеление",
+        "rarity": "5",
         "path": "Небытие",
         "img": ["https://i.imgur.com/FmcZP9p.png", "https://i.imgur.com/JAPEDX1.png"],
         "HP": "1058",
@@ -398,6 +434,7 @@
     {
         "id": "P8",
         "name": "Материя памяти",
+        "rarity": "5",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/Q2BG5uI.png", "https://i.imgur.com/MigmVKM.png"],
         "HP": "1058",
@@ -409,6 +446,7 @@
     {
         "id": "H14",
         "name": "Скрытый в ночной тени",
+        "rarity": "5",
         "path": "Охота",
         "img": ["", ""],
         "HP": "0",
@@ -420,6 +458,7 @@
     {
         "id": "A2",
         "name": "Общие чувства",
+        "rarity": "4",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/n5eU28P.png", "https://i.imgur.com/CwQrKNm.png"],
         "HP": "952",
@@ -431,6 +470,7 @@
     {
         "id": "G2",
         "name": "Свидание со звёздами",
+        "rarity": "4",
         "path": "Гармония",
         "img": ["https://i.imgur.com/lzg8vvZ.png", "https://i.imgur.com/sCtGMN6.png"],
         "HP": "1058",
@@ -442,6 +482,7 @@
     {
         "id": "H2",
         "name": "Фехтование",
+        "rarity": "4",
         "path": "Охота",
         "img": ["https://i.imgur.com/XXbuZHF.png", "https://i.imgur.com/X2ipOd8.png"],
         "HP": "952",
@@ -453,6 +494,7 @@
     {
         "id": "N3",
         "name": "Решимость блестит подобно жемчужинам пота",
+        "rarity": "4",
         "path": "Небытие",
         "img": ["https://i.imgur.com/xH0XRU0.png", "https://i.imgur.com/OR4E81B.png"],
         "HP": "952",
@@ -464,6 +506,7 @@
     {
         "id": "E1",
         "name": "Зарождение себя",
+        "rarity": "4",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/Tc9UqPf.png", "https://i.imgur.com/QUElPUQ.png"],
         "HP": "952",
@@ -475,6 +518,7 @@
     {
         "id": "G12",
         "name": "Расцвет юности",
+        "rarity": "4",
         "path": "Гармония",
         "img": ["https://i.imgur.com/4V4MLj3.png", "https://i.imgur.com/RDH8WFa.png"],
         "HP": "948",
@@ -486,6 +530,7 @@
     {
         "id": "D4",
         "name": "Тайная клятва",
+        "rarity": "4",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/zRY2L1u.png", "https://i.imgur.com/XmJhn48.png"],
         "HP": "1058",
@@ -497,6 +542,7 @@
     {
         "id": "D5",
         "name": "Кроты приветствуют тебя",
+        "rarity": "4",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/NlUvOHX.png", "https://i.imgur.com/cAnpt5s.png"],
         "HP": "1058",
@@ -508,6 +554,7 @@
     {
         "id": "A4",
         "name": "Идеальное время",
+        "rarity": "4",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/SmdiDaM.png", "https://i.imgur.com/tdHe2Yj.png"],
         "HP": "952",
@@ -519,6 +566,7 @@
     {
         "id": "E7",
         "name": "После затишья Гармонии",
+        "rarity": "4",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/vBwjXvj.png", "https://i.imgur.com/dIIzf10.png"],
         "HP": "846",
@@ -530,6 +578,7 @@
     {
         "id": "P3",
         "name": "Тренд галактического рынка",
+        "rarity": "4",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/CtPjePF.png", "https://i.imgur.com/HbvHnX1.png"],
         "HP": "1058",
@@ -541,6 +590,7 @@
     {
         "id": "G1",
         "name": "Воспоминания о прошлом",
+        "rarity": "4",
         "path": "Гармония",
         "img": ["https://i.imgur.com/R6Jb4d7.png", "https://i.imgur.com/QgWA3j0.png"],
         "HP": "952",
@@ -552,6 +602,7 @@
     {
         "id": "P1",
         "name": "Первый день моей новой жизни",
+        "rarity": "4",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/aEDZ7Tl.png", "https://i.imgur.com/U1uq2eg.png"],
         "HP": "952",
@@ -563,6 +614,7 @@
     {
         "id": "N2",
         "name": "Взгляд жертвы",
+        "rarity": "4",
         "path": "Небытие",
         "img": ["https://i.imgur.com/yModYvD.png", "https://i.imgur.com/mzMrF5j.png"],
         "HP": "952",
@@ -574,6 +626,7 @@
     {
         "id": "E3",
         "name": "Отдых гениев",
+        "rarity": "4",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/7QCBf1w.png", "https://i.imgur.com/pdVFG8d.png"],
         "HP": "846",
@@ -585,6 +638,7 @@
     {
         "id": "P2",
         "name": "Выбор Ландау",
+        "rarity": "4",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/jHQAMOU.png", "https://i.imgur.com/ZzIn7qH.png"],
         "HP": "952",
@@ -596,6 +650,7 @@
     {
         "id": "N7",
         "name": "Безграничный танец",
+        "rarity": "4",
         "path": "Небытие",
         "img": ["https://i.imgur.com/4qF8hyB.png", "https://i.imgur.com/POXv0kV.png"],
         "HP": "948",
@@ -607,6 +662,7 @@
     {
         "id": "G7",
         "name": "За завтрашнее путешествие",
+        "rarity": "4",
         "path": "Гармония",
         "img": ["https://i.imgur.com/LFgQEXu.png", "https://i.imgur.com/Nb2Ab4m.png"],
         "HP": "952",
@@ -618,6 +674,7 @@
     {
         "id": "P7",
         "name": "Концерт для двоих",
+        "rarity": "4",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/tLVlUap.png", "https://i.imgur.com/m1DSOhb.png"],
         "HP": "948",
@@ -629,6 +686,7 @@
     {
         "id": "E2",
         "name": "Пусть мир не стихает",
+        "rarity": "4",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/cxCb934.png", "https://i.imgur.com/tohXZwI.png"],
         "HP": "846",
@@ -640,6 +698,7 @@
     {
         "id": "N1",
         "name": "Спокойной ночи и мирного сна",
+        "rarity": "4",
         "path": "Небытие",
         "img": ["https://i.imgur.com/vrE8GFd.png", "https://i.imgur.com/HzGqLsc.png"],
         "HP": "952",
@@ -651,6 +710,7 @@
     {
         "id": "A1",
         "name": "Беседа после операции",
+        "rarity": "4",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/tYBUSDj.png", "https://i.imgur.com/wK7J3Tq.png"],
         "HP": "1058",
@@ -662,6 +722,7 @@
     {
         "id": "H3",
         "name": "Больше подписок!",
+        "rarity": "4",
         "path": "Охота",
         "img": ["https://i.imgur.com/hxVhdOk.png", "https://i.imgur.com/rREZq7u.png"],
         "HP": "952",
@@ -673,6 +734,7 @@
     {
         "id": "D3",
         "name": "Под голубым небом",
+        "rarity": "4",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/eBima8Q.png", "https://i.imgur.com/7u4KE1J.png"],
         "HP": "952",
@@ -684,6 +746,7 @@
     {
         "id": "D7",
         "name": "Хранящееся в сердце обещание",
+        "rarity": "4",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/pw4H1cS.png", "https://i.imgur.com/04Cdiq9.png"],
         "HP": "952",
@@ -695,6 +758,7 @@
     {
         "id": "G3",
         "name": "Танцуй! Танцуй! Танцуй!",
+        "rarity": "4",
         "path": "Гармония",
         "img": ["https://i.imgur.com/SXcJ8Hg.png", "https://i.imgur.com/MwkKmHM.png"],
         "HP": "952",
@@ -706,6 +770,7 @@
     {
         "id": "D6",
         "name": "Вдали от огня",
+        "rarity": "4",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/GCKcgjn.png", "https://i.imgur.com/EJAyxai.png"],
         "HP": "1058",
@@ -717,6 +782,7 @@
     {
         "id": "H6",
         "name": "Единственный победитель",
+        "rarity": "4",
         "path": "Охота",
         "img": ["https://i.imgur.com/3Cae6yD.png", "https://i.imgur.com/K3zjSM0.png"],
         "HP": "948",
@@ -728,6 +794,7 @@
     {
         "id": "E6",
         "name": "День падения вселенной",
+        "rarity": "4",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/BCWhrjH.png", "https://i.imgur.com/sWAIEBw.png"],
         "HP": "952",
@@ -739,6 +806,7 @@
     {
         "id": "G6",
         "name": "Приключение Грёзавиля",
+        "rarity": "4",
         "path": "Гармония",
         "img": ["https://i.imgur.com/Fxjt3xF.png", "https://i.imgur.com/pqM0O2y.png"],
         "HP": "952",
@@ -750,6 +818,7 @@
     {
         "id": "N6",
         "name": "Шоу начинается",
+        "rarity": "4",
         "path": "Небытие",
         "img": ["https://i.imgur.com/8tyZrVS.png", "https://i.imgur.com/v3CN9Uu.png"],
         "HP": "1058",
@@ -761,6 +830,7 @@
     {
         "id": "P6",
         "name": "Плетение нитей судьбы",
+        "rarity": "4",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/UEjZQGW.png", "https://i.imgur.com/3POlUdb.png"],
         "HP": "952",
@@ -772,6 +842,7 @@
     {
         "id": "A7",
         "name": "Что есть реальность?",
+        "rarity": "4",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/UG4usA6.png", "https://i.imgur.com/aiNAB5s.png"],
         "HP": "952",
@@ -783,6 +854,7 @@
     {
         "id": "H1",
         "name": "Остаётся лишь тишина",
+        "rarity": "4",
         "path": "Охота",
         "img": ["https://i.imgur.com/j07jrgr.png", "https://i.imgur.com/XJkUcdr.png"],
         "HP": "952",
@@ -794,6 +866,7 @@
     {
         "id": "A6",
         "name": "Эй, я здесь",
+        "rarity": "4",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/at0lmyg.png", "https://i.imgur.com/ZcYlOxS.png"],
         "HP": "952",
@@ -805,6 +878,7 @@
     {
         "id": "N8",
         "name": "Перед началом тренировочной миссии",
+        "rarity": "4",
         "path": "Небытие",
         "img": ["https://i.imgur.com/zYnLGrJ.png", "https://i.imgur.com/mWPCwGh.png"],
         "HP": "952",
@@ -816,6 +890,7 @@
     {
         "id": "D2",
         "name": "Гав! Время прогулок!",
+        "rarity": "4",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/LNDrayU.png", "https://i.imgur.com/71cGByg.png"],
         "HP": "952",
@@ -827,6 +902,7 @@
     {
         "id": "D1",
         "name": "Бежать некуда",
+        "rarity": "4",
         "path": "Разрушение",
         "img": ["https://i.imgur.com/UzJBLSb.png", "https://i.imgur.com/Zj5xvwt.png"],
         "HP": "952",
@@ -838,6 +914,7 @@
     {
         "id": "H5",
         "name": "Назад во тьму",
+        "rarity": "4",
         "path": "Охота",
         "img": ["https://i.imgur.com/G3gTmPY.png", "https://i.imgur.com/h1HWdlg.png"],
         "HP": "846",
@@ -849,6 +926,7 @@
     {
         "id": "H4",
         "name": "Весенние потоки рек",
+        "rarity": "4",
         "path": "Охота",
         "img": ["https://i.imgur.com/CzH9CFn.png", "https://i.imgur.com/XM1MJrS.png"],
         "HP": "846",
@@ -860,6 +938,7 @@
     {
         "id": "E5",
         "name": "Сегодня тоже мирный день",
+        "rarity": "4",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/pOJLxIY.png", "https://i.imgur.com/2SuVPxr.png"],
         "HP": "846",
@@ -871,6 +950,7 @@
     {
         "id": "E4",
         "name": "Важность завтрака",
+        "rarity": "4",
         "path": "Эрудиция",
         "img": ["https://i.imgur.com/hLEZBjz.png", "https://i.imgur.com/SUsHVum.png"],
         "HP": "846",
@@ -882,6 +962,7 @@
     {
         "id": "G5",
         "name": "Вырезать луну и кроить облака",
+        "rarity": "4",
         "path": "Гармония",
         "img": ["https://i.imgur.com/snCrQI3.png", "https://i.imgur.com/RSrB2IF.png"],
         "HP": "952",
@@ -893,6 +974,7 @@
     {
         "id": "G4",
         "name": "Прошлое и будущее",
+        "rarity": "4",
         "path": "Гармония",
         "img": ["https://i.imgur.com/vwx0ASe.png", "https://i.imgur.com/M583PXa.png"],
         "HP": "952",
@@ -904,6 +986,7 @@
     {
         "id": "N5",
         "name": "Мы ещё встретимся",
+        "rarity": "4",
         "path": "Небытие",
         "img": ["https://i.imgur.com/sXWs6ob.png", "https://i.imgur.com/wk0oAPO.png"],
         "HP": "846",
@@ -915,6 +998,7 @@
     {
         "id": "N4",
         "name": "Фермата",
+        "rarity": "4",
         "path": "Небытие",
         "img": ["https://i.imgur.com/qScsB6f.png", "https://i.imgur.com/yRYUXnY.png"],
         "HP": "952",
@@ -926,6 +1010,7 @@
     {
         "id": "P5",
         "name": "Это я!",
+        "rarity": "4",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/BXvJ2Q3.png", "https://i.imgur.com/S9cYbUF.png"],
         "HP": "846",
@@ -937,6 +1022,7 @@
     {
         "id": "P4",
         "name": "Мы - Дикий Огонь",
+        "rarity": "4",
         "path": "Сохранение",
         "img": ["https://i.imgur.com/qCHx5Bh.png", "https://i.imgur.com/nbaLeQo.png"],
         "HP": "740",
@@ -948,6 +1034,7 @@
     {
         "id": "A5",
         "name": "Холодные ночи короче, когда ты рядом",
+        "rarity": "4",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/7Z4dSSw.png", "https://i.imgur.com/DrGxumA.png"],
         "HP": "1058",
@@ -959,6 +1046,7 @@
     {
         "id": "A3",
         "name": "Равноценный обмен",
+        "rarity": "4",
         "path": "Изобилие",
         "img": ["https://i.imgur.com/QVo9bMs.png", "https://i.imgur.com/7qRUSJ7.png"],
         "HP": "952",
