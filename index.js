@@ -9,6 +9,7 @@ import charactersRouter from './routes/Router.js';
 dotenv.config();
 
 const app = express();
+const port = process.env.PORT;
 
 mongoose.connect(process.env.API_KEY).then(() => {console.log("Database connection successful")}).catch((err) => {console.log(err); process.exit(1)});
 
@@ -27,6 +28,6 @@ app.use((err, req, res, next) => {
     res.status(status).json({ message });
 });
 
-app.listen(18012, () => {
-    console.log("Server is running. Use our API on port: 18012");
+app.listen(port, () => {
+    console.log(`Server is running. Use our API on port: ${port}`);
 });
