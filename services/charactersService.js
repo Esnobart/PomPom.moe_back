@@ -1,6 +1,6 @@
 import { HSRchar } from "../models/charactersModel.js";
 import { HSRcones } from "../models/conesModel.js";
-import { HSRrelics } from "../models/relicsModal.js";
+import { HSRrelics } from "../models/relicsModel.js";
 import { HSRplanars } from "../models/planarsModel.js";
 
 async function getCharacters() {

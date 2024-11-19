@@ -4,7 +4,8 @@ import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 
-import charactersRouter from './routes/Router.js';
+import charactersRouter from './routes/charactersRouter.js';
+import usersRouter from './routes/usersRouter.js';
 
 dotenv.config();
 
@@ -18,6 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/api", charactersRouter);
+app.use("/users", usersRouter);
 
 app.use((_, res) => {
     res.status(404).json({ message: "Route not found" });

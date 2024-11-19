@@ -1,5 +1,5 @@
 import { HSRchar } from "../models/charactersModel.js";
-import { HSRrelics } from "../models/relicsModal.js";
+import { HSRrelics } from "../models/relicsModel.js";
 
 async function getRelics() {
     try {
