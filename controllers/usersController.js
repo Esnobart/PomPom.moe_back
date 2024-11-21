@@ -5,7 +5,7 @@ export const usersSignUp = async (req, res, next) => {
     try {
         const user = await signUp(req.body);
         if (!user) throw res.status(404).json({ errMessage: "User not found"});
-        res.status(201).json({ user: { nickname, email } })
+        res.status(201).json({ user: { nickname: user.nickname, email: user.email } })
     } catch (err) {
         next(err)
     }

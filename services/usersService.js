@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { Users } from '../models/usersModel.js';
 import { createHashPassword, checkHashPassword } from './passwordHashService.js';
+import { sendLetter } from './emailService.js';
 
 async function signUp(data) {
     const isExist = await Users.findOne({ email: data.email });
