@@ -9,7 +9,7 @@ async function signUp(data) {
     if (isExist) throw new Error("User on this email is already exist");
     const password = await createHashPassword(data.password);
     const newUser = await Users.create({ id: uuidv4(), ...data, password, verificationToken: uuidv4() });
-    if (!newUser) throw console.error("User was not created");
+    if (!newUser) throw new Error("User was not created");
     newUser.password = undefined;
     await sendLetter(newUser.email, newUser.verificationToken);
     return newUser
