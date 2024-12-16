@@ -36,7 +36,7 @@ const HtmlBody = (token) => `
     </div>
 `
 
-async function sendLetter(email, token) {
+export async function sendLetter(email, token) {
     const emailConfig = {
         to: email,
         from: 'pompom.verific@gmail.com',
@@ -47,5 +47,3 @@ async function sendLetter(email, token) {
     await sgMail.send(emailConfig);
     return true;
 };
-
-export { sendLetter }
