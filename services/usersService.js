@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { Users } from '../models/usersModel.js';
 import { createHashPassword, checkHashPassword } from './passwordHashService.js';
 import { sendLetter } from './emailService.js';
+import { signToken } from './jwtService.js';
 
 async function signUp(data) {
     const isExist = await Users.findOne({ email: data.email });
@@ -15,11 +16,11 @@ async function signUp(data) {
     return newUser
 }
 
-async function logIn(identify, password) {
-    const user = await Users.findOne({ $or: [{email: identify}, {nickname: identify}] });
+async function logIn(data) {
+    const user = await Users.findOne({ $or: [{email: data.identify}, {nickname: data.identify}] });
     if (!user) throw new Error("User not found");
     if (user.verificationToken !== null) throw new Error("Verify your email for log in");
-    const isPasswordValid = await checkHashPassword(password, user.password);
+    const isPasswordValid = await checkHashPassword(data.password, user.password);
     if (!isPasswordValid) throw new Error("Invalid credentials");
     const token = signToken(user.id);
     user.token = token;
