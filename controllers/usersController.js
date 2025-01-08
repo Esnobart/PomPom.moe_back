@@ -32,7 +32,7 @@ export const verifyUser = async (req, res, next) => {
     try {
         const user = await verificationUser(req.params.verificationToken);
         if (!user) throw new Error("User not found");
-        res.redirect('https://pompom-moe/login?verified=true');
+        res.redirect('https://pompom-moe.onrender.com/login?verified=true');
     } catch (err) {
         next(err)
     }
