@@ -32,7 +32,7 @@ export const verifyUser = async (req, res, next) => {
     try {
         const user = await verificationUser(req.params.verificationToken);
         if (!user) throw new Error("User not found");
-        res.status(200).json({ message: 'Verification successful' })
+        res.redirect('https://pompom-moe/login?verified=true');
     } catch (err) {
         next(err)
     }
